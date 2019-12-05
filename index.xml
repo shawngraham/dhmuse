@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Museums &#43; Digital History on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/</link>
+    <description>Recent content in Museums &#43; Digital History on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jun 2017 18:27:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grading &amp; Course Work</title>
+      <link>https://shawngraham.github.io/dhmuse/coursework/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/coursework/</guid>
+      <description>Grades  25% - process notes (10 devlogs, weekly from week 3 onwards) 25% - in-class leadership 40% - API collection (completed before the HeritageJam) 10% - HeritageJam (exact date at end of term to be determined)  The exact balance here can be negotiated, if the work load becomes unreasonable, or if other factors become important. In essence, we&amp;rsquo;re putting on a heritagejam on the theme of &amp;lsquo;the land&amp;rsquo; using data that we are going to put online and we have to learn enough to get it online in a useful way while planning the event.</description>
+    </item>
+    
+    <item>
+      <title>Readings</title>
+      <link>https://shawngraham.github.io/dhmuse/readings/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/readings/</guid>
+      <description>1.1 Cultural Heritage and its Institutions 1.2 Legal, Ethical Frameworks for Cultural Heritage 1.4 Collectors and Collecting; The Bonetrade 1.5 Informatics and Organizing Cultural Heritage 2.1 Ownership and Authority 2.2 Preservation &amp;amp; Curation 2.4 Interpretation 2.5 Online Exhibits: Cooked Data 2.6 APIs and Catalogues: Raw Data? 2.7 Metadata &amp;amp; Paradata 2.8 Linked Open Data 3.3 Social Media &amp;amp; Audience Research, Ethics &amp;amp; Practice 3.4 Web Archives 3.5 Computational Creativity 4.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://shawngraham.github.io/dhmuse/schedule/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/schedule/</guid>
+      <description>Meetings and topics and readings and assignments. Exact schedule subject to change and modification as necessary.
+Part One: Foundations: Cultural Heritage &amp;amp; Information  in which we lay the groundwork for what this course will explore, its larger contexts, and what the major research questions are.
+ Jan 6
+ 1.1 Cultural Heritage and its Institutions 1.2 Legal, Ethical Frameworks for Cultural Heritage  Jan 13
+ 1.4 Collectors and Collecting; The Bonetrade 1.</description>
+    </item>
+    
+    <item>
+      <title>Cupper Typography</title>
+      <link>https://shawngraham.github.io/dhmuse/cupper-typography/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/cupper-typography/</guid>
+      <description>Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6  Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_  This text will be italic
+This will also be italic
+This text will be bold</description>
+    </item>
+    
+    <item>
+      <title>Cupper Shortcodes</title>
+      <link>https://shawngraham.github.io/dhmuse/cupper-shortcodes/</link>
+      <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/cupper-shortcodes/</guid>
+      <description>blockquote {{% blockquote author=&amp;quot;Carl Jung&amp;quot; %}} Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity. {{% /blockquote %}}   Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness.</description>
+    </item>
+    
+  </channel>
+</rss>
