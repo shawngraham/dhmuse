@@ -12,6 +12,36 @@
     
     
     <item>
+      <title>Updating Your Devlogs</title>
+      <link>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  for the January 13th meeting</description>
+    </item>
+    
+    <item>
+      <title>Building Your Online Presence</title>
+      <link>https://shawngraham.github.io/dhmuse/building-your-online-presence/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/building-your-online-presence/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  for the January 6th meeting</description>
+    </item>
+    
+    <item>
+      <title>Notes on Running a Data Hackathon</title>
+      <link>https://shawngraham.github.io/dhmuse/notes-on-a-good-hackathon-by-matthew-lincoln/</link>
+      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/notes-on-a-good-hackathon-by-matthew-lincoln/</guid>
+      <description>Matthew Lincoln is a research software engineer at Carnegie Mellon University Libraries. He is currently working on a book using data-driven approaches to understanding the art market and collecting histories. You should really keep an eye on his blog if you want to get a look at what&amp;rsquo;s happening today at the intersection of digital techs and the GLAM sector.
+On December 17 he published an article, &amp;ldquo;Tips for a Good Hackathon&amp;rdquo; that I think it is worth your while to read, since some of the things that make for a good hackathon happen well in advance of the actual hackathon.</description>
+    </item>
+    
+    <item>
       <title>Grading &amp; Course Work</title>
       <link>https://shawngraham.github.io/dhmuse/coursework/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
@@ -70,11 +100,11 @@ What is a &amp;ldquo;Jam&amp;rdquo;? A &amp;ldquo;jam&amp;rdquo; is a short prot
     </item>
     
     <item>
-      <title>Cupper Typography</title>
-      <link>https://shawngraham.github.io/dhmuse/cupper-typography/</link>
+      <title>Markdown Typography</title>
+      <link>https://shawngraham.github.io/dhmuse/markdown/</link>
       <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
       
-      <guid>https://shawngraham.github.io/dhmuse/cupper-typography/</guid>
+      <guid>https://shawngraham.github.io/dhmuse/markdown/</guid>
       <description>Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6  Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_  This text will be italic
 This will also be italic
 This text will be bold</description>

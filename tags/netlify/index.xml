@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/netlify/</link>
+    <description>Recent content in Netlify on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2019 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updating Your Devlogs</title>
+      <link>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  for the January 13th meeting</description>
+    </item>
+    
+    <item>
+      <title>Building Your Online Presence</title>
+      <link>https://shawngraham.github.io/dhmuse/building-your-online-presence/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/building-your-online-presence/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  for the January 6th meeting</description>
+    </item>
+    
+  </channel>
+</rss>

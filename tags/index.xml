@@ -6,10 +6,28 @@
     <description>Recent content in Tags on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2019 15:36:09 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/github/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritagejam</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/heritagejam/</link>
+      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/heritagejam/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -30,11 +48,38 @@
     </item>
     
     <item>
+      <title>Netlify</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/netlify/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/notes/</link>
+      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shortcodes</title>
       <link>https://shawngraham.github.io/dhmuse/tags/shortcodes/</link>
       <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/tutorial/</link>
+      <pubDate>Wed, 18 Dec 2019 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/tutorial/</guid>
       <description></description>
     </item>
     
