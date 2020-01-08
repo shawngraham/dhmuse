@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/policies/</link>
+    <description>Recent content in Policies on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jan 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/policies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Student Hours</title>
+      <link>https://shawngraham.github.io/dhmuse/student-hours/</link>
+      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/student-hours/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If there&amp;rsquo;s anything below that prompts some reflection, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  What are student hours for? You will be familiar with the idea of &amp;lsquo;office hours&amp;rsquo;, those magical moments where a prof deigns to make themself available by sitting in their cell up along the quiet corridors of the 4th floor of Paterson.</description>
+    </item>
+    
+  </channel>
+</rss>
