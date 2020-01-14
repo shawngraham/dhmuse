@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/tags/tutorial/">
+  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/customizing-your-site/">
 
   
 
@@ -34,7 +34,7 @@
 
   
   
-  <title>Tutorial | HIST4806A Museums &#43; Digital History</title>
+  <title>Customizing Your Site | HIST4806A Museums &#43; Digital History</title>
 </head>
 
   <body>
@@ -251,44 +251,175 @@
         <div>
           
   <main id="main">
-    <h1>Tutorial</h1>
-    <ul class="patterns-list">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Customizing Your Site
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Jan 8, 2020
+    </div>
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/customizing-your-site/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Customizing Your Site
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/tutorial/">tutorial</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/netlify/">netlify</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/github/">github</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#let-s-get-rid-of-what-we-don-t-need">
+            Let’s get rid of what we don’t need
           </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/updating-your-devlogs/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Updating Your Devlogs
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#customizing-the-menu-bar">
+            Customizing the Menu bar
           </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/building-your-online-presence/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Building Your Online Presence
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#themes">
+            Themes
           </a>
-        </h2>
-      </li>        
+        </li>
+      
+    </ol>
+  </nav>
+
+
     
-    </ul>
+    
+
+<aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
+    <p>Please note that this course website is equipped with the <a href="http://hypothes.is">Hypothes.is</a> annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our <a href="https://hypothes.is/groups/AQerk76W/4806a-museums-dh">class Hypothesis group</a>. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.</p>
+
+  </div>
+</aside>
+
+
+<h2 id="let-s-get-rid-of-what-we-don-t-need">Let&rsquo;s get rid of what we don&rsquo;t need</h2>
+
+<p>As you look at your site, you&rsquo;ll notice that there are a lot of things on there that you don&rsquo;t really need at the moment. Here&rsquo;s how you turn them off.</p>
+
+<ol>
+<li>Go to your github account, and your <code>academic-kickstart</code> repository.</li>
+<li>Go to the <code>content\home</code> directory. The files in this directory are the files that control how the different data are displayed. When your site builds, it checks each of these for a metadata key:value pair, <code>active: true</code>. To turn &lsquo;publications&rsquo; off, you edit the <code>publications.md</code> and change <code>active</code> to <code>false</code>. Then when the site builds, it won&rsquo;t put a publications widget on your front page.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-5805e6729250197902760d597b12bc32">
+  <a href="https://shawngraham.github.io/dhmuse/customizing-your-site/widgets.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/customizing-your-site/widgets_huc4f1e8f592ffff8a7e3e826608afbee5_420009_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-5805e6729250197902760d597b12bc32">
+    These are the files that control how the different parts of your front page look. Click on the file name, click on the pencil icon to edit, find active: true and change it to active: false.
+  </figcaption>
+</figure>
+
+
+<h2 id="customizing-the-menu-bar">Customizing the Menu bar</h2>
+
+<p>You can change the order or labelling of your menu bar across the top.</p>
+
+<ol>
+<li>Open menu.toml, which is at <code>academic-kickstart/config/_default/menus.toml</code></li>
+<li>The &lsquo;weight&rsquo; value is the order. Menu items appear left to right on your site, so if you want something to appear first, give it the lowest weight.</li>
+<li>You can also create links to external sites if you want</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-2d3f9eec5f3aa3855ff2442891088402">
+  <a href="https://shawngraham.github.io/dhmuse/customizing-your-site/menus.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/customizing-your-site/menus_hu3e2d8387d946f8e6b82d7812b1fd1363_222192_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-2d3f9eec5f3aa3855ff2442891088402">
+    You probably won&rsquo;t want to do this at all, but I like to rename &lsquo;posts&rsquo; to &lsquo;notebook&rsquo;.
+  </figcaption>
+</figure>
+
+
+<h2 id="themes">Themes</h2>
+
+<p>This requires moving some files around, adding other bits and bobs and if you really want to do it, we should just sit down together and I&rsquo;ll talk you through it. But if you&rsquo;re feeling up to it, <a href="https://sourcethemes.com/academic/docs/customization/">here is the official documentation about how to change the theme</a>.</p>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

@@ -6,10 +6,20 @@
     <description>Recent content in Netlify on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Customizing Your Site</title>
+      <link>https://shawngraham.github.io/dhmuse/customizing-your-site/</link>
+      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/customizing-your-site/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
+  Let&amp;rsquo;s get rid of what we don&amp;rsquo;t need As you look at your site, you&amp;rsquo;ll notice that there are a lot of things on there that you don&amp;rsquo;t really need at the moment.</description>
+    </item>
     
     <item>
       <title>Updating Your Devlogs</title>
