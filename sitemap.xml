@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/getting-started-with-tropy/</loc>
+    <lastmod>2019-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/</loc>
     <lastmod>2017-06-26T18:27:58+01:00</lastmod>
   </url>
@@ -126,6 +131,12 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/metadata/</loc>
+    <lastmod>2019-01-13T00:36:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/netlify/</loc>
     <lastmod>2020-01-13T00:36:15-06:00</lastmod>
     <priority>0</priority>
@@ -158,6 +169,12 @@
   <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
     <lastmod>2020-01-08T00:36:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tropy/</loc>
+    <lastmod>2019-01-13T00:36:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
