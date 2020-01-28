@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Handwriting Recognition on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</link>
+    <description>Recent content in Handwriting Recognition on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jan 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Extracting Hand-written text</title>
+      <link>https://shawngraham.github.io/dhmuse/detecting-handwriting/</link>
+      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/detecting-handwriting/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+  Computer Vision In recent years, computer vision technologies have been improving in leaps and bounds. There are a couple of approaches to teaching the computer to &amp;lsquo;see&amp;rsquo; objects or things of interest in our photographs.</description>
+    </item>
+    
+  </channel>
+</rss>
