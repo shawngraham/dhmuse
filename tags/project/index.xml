@@ -6,10 +6,20 @@
     <description>Recent content in Project on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making an API with Datasette and Glitch</title>
+      <link>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</link>
+      <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+  Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
+    </item>
     
     <item>
       <title>Detecting and Extracting Hand-written text</title>
@@ -20,15 +30,6 @@
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
   Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
 Computer Vision In recent years, computer vision technologies have been improving in leaps and bounds.</description>
-    </item>
-    
-    <item>
-      <title>Making an API with Datasette and Glitch</title>
-      <link>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</link>
-      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</guid>
-      <description>Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet. That means, we need to build an API. If you go to the Canada Science and Technology Museum open data portal, you&amp;rsquo;ll see that they&amp;rsquo;ve made data available, but it&amp;rsquo;s one big dump of data.</description>
     </item>
     
     <item>
