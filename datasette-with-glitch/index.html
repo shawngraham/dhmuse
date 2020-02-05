@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/post/">
+  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/">
 
   
 
@@ -34,7 +34,7 @@
 
   
   
-  <title>Blog | HIST4806A Museums &#43; Digital History</title>
+  <title>Making an API with Datasette and Glitch | HIST4806A Museums &#43; Digital History</title>
 </head>
 
   <body>
@@ -209,7 +209,7 @@
       
       
       
-      <a href="/dhmuse/post/" aria-current="page">
+      <a href="/dhmuse/post/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -251,165 +251,310 @@
         <div>
           
   <main id="main">
-    <h1>Blog</h1>
-    <ul class="patterns-list">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Making an API with Datasette and Glitch
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Jan 28, 2020
+    </div>
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Making an API with Datasette and Glitch
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/project/">project</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/collections/">collections</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/informatics/">informatics</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/api/">api</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/tables/">tables</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/csv/">csv</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/collaborative-coding/">collaborative coding</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#grab-some-data">
+            Grab some data
           </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/detecting-handwriting/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Detecting and Extracting Hand-written text
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#datasette">
+            Datasette
           </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/your-devlogs/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Your Devlogs
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#going-further-writing-some-code-to-interact-with-our-api">
+            Going further: writing some code to interact with our API
           </a>
-        </h2>
-      </li>        
+        </li>
+      
+    </ol>
+  </nav>
+
+
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/museum-groups/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Museum Groups
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/cmh-visit/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Canadian Museum of History Visit
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/getting-started-with-tropy/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Getting Started with Tropy
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/customizing-your-site/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Customizing Your Site
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/student-hours/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Student Hours
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/what-is-this-thing/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            What is this thing?
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/updating-your-devlogs/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Updating Your Devlogs
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/building-your-online-presence/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Building Your Online Presence
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/notes-on-a-good-hackathon-by-matthew-lincoln/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Notes on Running a Data Hackathon
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/markdown/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Markdown Typography
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/cupper-shortcodes/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Cupper Shortcodes
-          </a>
-        </h2>
-      </li>        
-    
-    </ul>
+
+<p>Our end goal - or one of our end goals - is to get the material <em>out</em> of the museum, <em>out</em> of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&rsquo;t thought of yet. That means, we need to build an API. If you go to the Canada Science and Technology Museum open data portal, you&rsquo;ll see that they&rsquo;ve made data available, but it&rsquo;s one big dump of data. We can download it, but then it&rsquo;s on our own machines and it is difficult to work with. If they update the data, we&rsquo;ll have to re-download it, and re-do all of our cleaning or filtering. If there was an API, and we were working with data from the API, we&rsquo;d get the changes in data as soon as they updated.</p>
+
+<p>So let&rsquo;s build our own API.</p>
+
+<h2 id="grab-some-data">Grab some data</h2>
+
+<p>First thing we&rsquo;re going to do is grab some data that already exists in the world. (Eventually, we&rsquo;ll use <strong>your</strong> data!)</p>
+
+<ol>
+<li>Get data from the <a href="https://ingeniumcanada.org/collection-research/artifact-open-data-set-mash-up">CSTM open data portal</a>. (Or download <a href="http://source.techno-science.ca/datasets-donnees/artifacts-artefacts/csv/cstmc-CSV-en.csv">here</a>).</li>
+<li>Open the csv in sublime text or another <strong>text</strong> editor.</li>
+<li>How is the data organized? Notice that the fields are delimited using the | (aka, &lsquo;the pipe&rsquo;) character. Close the file.</li>
+<li>Start up Excel. Create a new document, then go to file &gt; import and select &lsquo;csv&rsquo;. Select the CSTM csv file.</li>
+<li>Select &lsquo;delimited&rsquo; when it asks you how the fields should be determined.</li>
+<li>Select the &lsquo;other&rsquo; option, and type a | in there so Excel knows how to import. Click ok.</li>
+<li>Now go to &lsquo;save as&rsquo; and select &lsquo;csv&rsquo;. Give the file a new name so you don&rsquo;t do anything to the original file, like &lsquo;cstm-new.csv&rsquo;.</li>
+</ol>
+
+<p>Why did we do this? By importing and then saving the data, we transformed the data slightly. The act of &lsquo;saving as&rsquo; wrapped quotation marks around all of the text in each field in the data - otherwise, a comma in a written description, or a semi-colon, or another punctuation mark might be read as a field marker and so break our data. Importing and saving as also transformed all of the pipes into commas so that the <strong>only</strong> commas in the data now are column (field) delimiters.</p>
+
+<h2 id="datasette">Datasette</h2>
+
+<blockquote>
+<p>A tool for exploring and publishing data</p>
+
+<p>Datasette is a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.</p>
+
+<p>Datasette is aimed at data journalists, museum curators, archivists, local governments and anyone else who has data that they wish to share with the world. It is part of a wider ecosystem of tools and plugins dedicated to making working with structured data as productive as possible.</p>
+</blockquote>
+
+<p>Here is a <a href="https://static.simonwillison.net/static/2018/pybay-datasette/">video and slides about datasette</a> and <a href="https://datasette.readthedocs.io/en/stable/">here is the full documentation</a></p>
+
+<p>Publishing and exploring data: check! That&rsquo;s <em>exactly</em> what we want.</p>
+
+<p>Now, <a href="https://datasette.readthedocs.io/">Datasette</a> can be installed on your own machine, which can be fiddly and requires a fair degree of fluency with working at the command prompt or in the terminal. (If you did install it locally, you can also do a lot of customization, but that&rsquo;s a task for some other day). We&rsquo;re not going to do that today, because a kind soul, Simon Williamson, made a template for us to use on the collaborative live-coding website <a href="http://glitch.com">Glitch</a>. This template contains everything within it that we need to get a table of data online via an API and website where we can also manually query it.</p>
+
+<p>(There is a trade-off in using this template - &lsquo;projects are limited to 4,000 requests an hour—and there’s currently no way to increase that limit. They also limit projects to 200MB of disk space&rsquo;. But I don&rsquo;t think we&rsquo;ll hit either of those barriers. If we do, we&rsquo;ll come up with some other solution.)</p>
+
+<ol>
+<li>Make sure you&rsquo;re logged into Github; this is not strictly speaking necessary, but it will make finding your work again later much easier.</li>
+<li>Click on this <a href="https://glitch.com/edit/#!/remix/datasette-csvs">remix link</a></li>
+<li>This takes you to the code page for the datasette template; in the top right hand side of the screen is a login button; select that, and select github.
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-c236e4dd6ed857804ed71f9df535afdc">
+  <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/glitch-datasette.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/datasette-with-glitch/glitch-datasette_hu7bacbb23ae1ae354e8e1dc476c956c7c_281708_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-c236e4dd6ed857804ed71f9df535afdc">
+    The coding window for Glitch
+  </figcaption>
+</figure>
+</li>
+<li>You should now be back at the datasette template, and be logged in. The next time you go to <a href="http://glitch.com">glitch.com</a> and login, your datasette template will be listed.</li>
+<li>Drag and drop the &lsquo;cstm-new.csv&rsquo; file onto the list of files on the left hand side of the glitch coding window. It will upload your data into the template. Wait until everything calms down.</li>
+<li>Where it says &lsquo;show&rsquo; at the top of the window (with the sunglasses icon), hit the drop-down menu and select &lsquo;new window&rsquo;</li>
+</ol>
+
+<p>Ta da! Your data is now live, on the web, as an API.</p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-4ad850fe07feaa436194a1049d15b71e">
+  <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/api1.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/datasette-with-glitch/api1_hu262c125018c23383894912b40d5dcf92_122099_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-4ad850fe07feaa436194a1049d15b71e">
+    What you see when your API&rsquo;s website is live. Click on &lsquo;example&rsquo; to see the data in example.csv - your data will be listed here too.
+  </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-fab5ef8cdc51eb2037e191fc15c48a3a">
+  <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/api2.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/datasette-with-glitch/api2_hubc1522c746caacff721ac649a198d569_196242_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-fab5ef8cdc51eb2037e191fc15c48a3a">
+    Now you can start filtering or searching in your data. Notice the json and csv buttons. Also, when you start putting values into the search boxes, and the query runs, the URL changes. We&rsquo;ll come back to that in a moment, but that&rsquo;s the key thing that lets someone else tie our data into another batch of data.
+  </figcaption>
+</figure>
+
+
+<p>Now, a good API also has to be documented properly, so that people know what the different fields are and how to get the data out in the format that they want (eg, do you spot how to get the data out as .json or .csv by adding something to the URL?). In our case, you&rsquo;d want to draw on the <a href="https://ingeniumcanada.org/open-data-dictionary">data dictionary for the CSTM</a>.  Here&rsquo;s and example of the documentation for the <a href="https://api.aucklandmuseum.com/">Aukland Museum</a>.</p>
+
+<h2 id="going-further-writing-some-code-to-interact-with-our-api">Going further: writing some code to interact with our API</h2>
+
+<p>Every field can be queried, and complex queries can be written, using the various facets and the query builder on our webpage. But we can also do that by writing the query directly in the URL; once we have the url, we can write <em>scripts</em> that for instance download just the information we want.</p>
+
+<p>If you go to <a href="https://github.com/shawngraham/some-api-notebooks">this github repo of mine</a> you&rsquo;ll see a button that says &lsquo;launch binder&rsquo;. If you hit that button, the Binder service will create a virtual computer for you that can run our code (this saves you from having to install a bunch of things on your own computer). <strong>Don&rsquo;t do that yet</strong>.</p>
+
+<p>Instead, just take a look at this static version of the <a href="https://github.com/shawngraham/some-api-notebooks/blob/master/notebooks/retrieving%20data%20from%20our%20datasette%20api.ipynb">&lsquo;retrieving data from our datasette api&rsquo; notebook</a>.</p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-b7ee4eb946eeffba64ae0550f4d2bb68">
+  <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/notebook1.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/datasette-with-glitch/notebook1_huc77846278023b6aa32b090e24160d20d_295360_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-b7ee4eb946eeffba64ae0550f4d2bb68">
+    The first five cells in the notebook which, when run in sequence, build up a query for our API.
+  </figcaption>
+</figure>
+
+
+<p>The first cell tells the computer that we want to use a little package of python code called &lsquo;requests&rsquo; that makes it easier to work with webpages.</p>
+
+<p>The next cell creates a variable called <code>api_search_url</code> that has the full path to our API <strong>plus the little bit that says, &lsquo;hey, give us the results as json please&rsquo;</strong>.</p>
+
+<p>The next cell creates a parameter for our search, and uses a key:value pair that should be fairly clear - that is, we tell it what field we&rsquo;re interested in, and what text we want to find there.</p>
+
+<p>In the fourth cell, we add some more parameters that we want to use to narrow everything down.</p>
+
+<p>The fifth cell is a check to make sure that our code builds the query url correctly and then tests it to see if our API returns an &lsquo;ok&rsquo; signal.</p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-6d7fd0ab708c5dc0c145041cc03a4b70">
+  <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/notebook2.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/datasette-with-glitch/notebook2_hu9616c36d236d9e63210696860eaedddc_260625_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-6d7fd0ab708c5dc0c145041cc03a4b70">
+    The last three cells get the data, make it legible to humans, and writes it all to file.
+  </figcaption>
+</figure>
+
+
+<p>Then, the cell that says <code>data = respons.json()</code> does the work of going and getting the results; the next cell displays the results for us, and the final cell writes it all to file!</p>
+
+<p>Now, if you hit the &lsquo;launch binder&rsquo; button, you can load up the notebook and run the code for yourself, and experiment with changing up the parameters.</p>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

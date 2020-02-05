@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/your-devlogs/</loc>
     <lastmod>2020-01-26T00:36:15-06:00</lastmod>
   </url>
@@ -98,6 +103,12 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/azure/</loc>
     <lastmod>2020-01-28T00:36:15-06:00</lastmod>
     <priority>0</priority>
@@ -127,7 +138,19 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/collaborative-coding/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/collections/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/csv/</loc>
     <lastmod>2020-01-28T00:36:15-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -237,6 +260,12 @@
   <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/shortcodes/</loc>
     <lastmod>2019-02-12T23:39:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tables/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
