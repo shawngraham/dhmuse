@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datasette on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/datasette/</link>
+    <description>Recent content in datasette on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Feb 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/datasette/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publishing Data to the Web with Heroku and Datasette</title>
+      <link>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+Prerequisites You need to have the following installed on your machine:
+ Python. I recommend using Anaconda to manage all of your python related work. Get Anaconda here and get the 3.</description>
+    </item>
+    
+  </channel>
+</rss>

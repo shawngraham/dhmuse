@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on HIST4806A Museums &#43; Digital History</title>
+    <title>github on HIST4806A Museums &#43; Digital History</title>
     <link>https://shawngraham.github.io/dhmuse/tags/github/</link>
-    <description>Recent content in Github on HIST4806A Museums &#43; Digital History</description>
+    <description>Recent content in github on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jan 2020 00:36:15 -0600</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/customizing-your-site/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  Let&amp;rsquo;s get rid of what we don&amp;rsquo;t need As you look at your site, you&amp;rsquo;ll notice that there are a lot of things on there that you don&amp;rsquo;t really need at the moment.</description>
+Let&amp;rsquo;s get rid of what we don&amp;rsquo;t need As you look at your site, you&amp;rsquo;ll notice that there are a lot of things on there that you don&amp;rsquo;t really need at the moment.</description>
     </item>
     
     <item>
@@ -28,7 +28,8 @@
       
       <guid>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  for the January 13th meeting</description>
+for the January 13th meeting
+Why? Keeping track of what you&amp;rsquo;re working on, the code you&amp;rsquo;re trying, the task you&amp;rsquo;re facing, the things you read to help you (like tutorials), the videos you might watch&amp;hellip; This is all part of the process.</description>
     </item>
     
     <item>
@@ -38,7 +39,8 @@
       
       <guid>https://shawngraham.github.io/dhmuse/building-your-online-presence/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  for the January 6th meeting</description>
+for the January 6th meeting
+Why? You are doing real-world work that helps move our partner Museums forward.</description>
     </item>
     
   </channel>

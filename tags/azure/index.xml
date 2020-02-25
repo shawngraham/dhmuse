@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure on HIST4806A Museums &#43; Digital History</title>
+    <title>azure on HIST4806A Museums &#43; Digital History</title>
     <link>https://shawngraham.github.io/dhmuse/tags/azure/</link>
-    <description>Recent content in Azure on HIST4806A Museums &#43; Digital History</description>
+    <description>Recent content in azure on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jan 2020 00:36:15 -0600</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/detecting-handwriting/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
+Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
 Computer Vision In recent years, computer vision technologies have been improving in leaps and bounds.</description>
     </item>
     

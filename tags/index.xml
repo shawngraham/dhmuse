@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HIST4806A Museums &#43; Digital History</title>
@@ -6,13 +6,58 @@
     <description>Recent content in Tags on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Api</title>
+      <title>collections</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/collections/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/collections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datasette</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/datasette/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/datasette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heroku</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/heroku/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informatics</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/informatics/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/informatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/project/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
       <link>https://shawngraham.github.io/dhmuse/tags/api/</link>
       <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
       
@@ -21,43 +66,16 @@
     </item>
     
     <item>
-      <title>Azure</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/azure/</link>
-      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clarification</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/clarification/</link>
-      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/clarification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Classroom</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/classroom/</link>
-      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/classroom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaborative</title>
+      <title>collaborative</title>
       <link>https://shawngraham.github.io/dhmuse/tags/collaborative/</link>
-      <pubDate>Thu, 02 Jan 2020 00:36:15 -0600</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/tags/collaborative/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Collaborative Coding</title>
+      <title>collaborative coding</title>
       <link>https://shawngraham.github.io/dhmuse/tags/collaborative-coding/</link>
       <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
       
@@ -66,16 +84,7 @@
     </item>
     
     <item>
-      <title>Collections</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/collections/</link>
-      <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/collections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Csv</title>
+      <title>csv</title>
       <link>https://shawngraham.github.io/dhmuse/tags/csv/</link>
       <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
       
@@ -84,169 +93,7 @@
     </item>
     
     <item>
-      <title>Devlogs</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/devlogs/</link>
-      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/devlogs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exercise</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/exercise/</link>
-      <pubDate>Thu, 02 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/exercise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Field Trip</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/field-trip/</link>
-      <pubDate>Wed, 22 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/field-trip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/github/</link>
-      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Handwriting Recognition</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</link>
-      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heritagejam</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/heritagejam/</link>
-      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/heritagejam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/hugo/</link>
-      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informatics</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/informatics/</link>
-      <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/informatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/markdown/</link>
-      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metadata</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/metadata/</link>
-      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/metadata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Netlify</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/netlify/</link>
-      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/netlify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notes</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/notes/</link>
-      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Objects</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/objects/</link>
-      <pubDate>Thu, 02 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/objects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ocr</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/ocr/</link>
-      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/ocr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Policies</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/policies/</link>
-      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/policies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/project/</link>
-      <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflections</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/reflections/</link>
-      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/reflections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/shortcodes/</link>
-      <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tables</title>
+      <title>tables</title>
       <link>https://shawngraham.github.io/dhmuse/tags/tables/</link>
       <pubDate>Wed, 05 Feb 2020 00:36:15 -0600</pubDate>
       
@@ -255,7 +102,97 @@
     </item>
     
     <item>
-      <title>Tropy</title>
+      <title>azure</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/azure/</link>
+      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>handwriting recognition</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</link>
+      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ocr</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/ocr/</link>
+      <pubDate>Tue, 28 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devlogs</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/devlogs/</link>
+      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/devlogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflections</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/reflections/</link>
+      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/reflections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/writing/</link>
+      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>field trip</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/field-trip/</link>
+      <pubDate>Wed, 22 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/field-trip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/github/</link>
+      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/metadata/</link>
+      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netlify</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/netlify/</link>
+      <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tropy</title>
       <link>https://shawngraham.github.io/dhmuse/tags/tropy/</link>
       <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
       
@@ -264,7 +201,7 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
+      <title>tutorial</title>
       <link>https://shawngraham.github.io/dhmuse/tags/tutorial/</link>
       <pubDate>Mon, 13 Jan 2020 00:36:15 -0600</pubDate>
       
@@ -273,11 +210,92 @@
     </item>
     
     <item>
-      <title>Writing</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/writing/</link>
-      <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
+      <title>clarification</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/clarification/</link>
+      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
       
-      <guid>https://shawngraham.github.io/dhmuse/tags/writing/</guid>
+      <guid>https://shawngraham.github.io/dhmuse/tags/clarification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>classroom</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/classroom/</link>
+      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/classroom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policies</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/policies/</link>
+      <pubDate>Wed, 08 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/policies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exercise</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/exercise/</link>
+      <pubDate>Thu, 02 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/exercise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>objects</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/objects/</link>
+      <pubDate>Thu, 02 Jan 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heritagejam</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/heritagejam/</link>
+      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/heritagejam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/notes/</link>
+      <pubDate>Tue, 10 Dec 2019 00:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/hugo/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/markdown/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/shortcodes/</link>
+      <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/shortcodes/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.65.3" />
   <link rel="canonical" href="https://shawngraham.github.io/dhmuse/detecting-handwriting/">
 
   
@@ -137,7 +137,7 @@
       </a>
       <p class="library-desc">
         
-          HIST4806A<br> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
+          HIST4806A<!-- raw HTML omitted --> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
         
       </p>
     </div>
@@ -369,31 +369,15 @@
 
 
     
-    
-
-<aside aria-label="note" class="note">
-  <div>
-    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
-      <use xlink:href="#info"></use>
-    </svg>
-    <p>Please note that this course website is equipped with the <a href="http://hypothes.is">Hypothes.is</a> annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our <a href="https://hypothes.is/groups/AQerk76W/4806a-museums-dh">class Hypothesis group</a> to alert me.</p>
-
-  </div>
-</aside>
-
-
+    <!-- raw HTML omitted -->
+<p>Please note that this course website is equipped with the <a href="http://hypothes.is">Hypothes.is</a> annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our <a href="https://hypothes.is/groups/AQerk76W/4806a-museums-dh">class Hypothesis group</a> to alert me.</p>
+<!-- raw HTML omitted -->
 <p><strong>Acknowledgement</strong> All of this was taught to me by my MA student, Jeff Blackadar.</p>
-
 <h2 id="computer-vision">Computer Vision</h2>
-
 <p>In recent years, computer vision technologies have been improving in leaps and bounds. There are a couple of approaches to teaching the computer to &lsquo;see&rsquo; objects or things of interest in our photographs. The literature is voluminous, so I&rsquo;m just going to give you the 30 second elevator pitch version.</p>
-
 <p>With <strong>supervised learning</strong> we carefully mark up an image with bounding boxes (squares) and manually tag each box with labels describing what&rsquo;s in the box. The computer learns to associate patterns of pixels in the box with the relevant label. We can get a little bit less strict by collecting thousands of images where the thing-of-interest is the main thing in the picture - a cropped pic of a kitten - and then exposing the image to a <strong>neural network</strong>.</p>
-
 <p>A neural network is a bit like a series of connected filters. Each filter is set up to allow different sized particles pass through the mesh to the next layer. Except, in our case, each &lsquo;filter&rsquo; is a mathematical function that responds to the presence or absence of data in a limited area of the image. If there is data, it &lsquo;fires&rsquo; and the <em>next</em> layer responds to whether or not it received data from the previous layer. We progress through the layers, and at the end of it, we have a pattern of lit-up neurons that represents the visual imagery data. If we expose the network to a picture of a kitten, we take the resulting pattern as indicative of &lsquo;kittenosity&rsquo;. Then when the network encounters a new picture - say one of those little dogs that fit in a purse - it will light up in a subtley different way, enabling us to say, &lsquo;this picture is only 65% likely to be a kitten&rsquo;.</p>
-
 <p>So - in the first approach, a kitten is either in the picture, or it is not. In the second approach, we can get degrees of fuzziness of whether or not a picture contains a kitten. This is important, because it enables the machine to make guesses.</p>
-
 
 
 
@@ -415,32 +399,16 @@
   </figcaption>
 </figure>
 
-
 <h2 id="optical-character-recognition-ocr">Optical Character Recognition (OCR)</h2>
-
 <p>The <a href="https://en.wikipedia.org/wiki/Optical_character_recognition">history of optical character recognition</a> is fascinating, and you could do worse than starting with the Wikipedia to learn more about it. It is in fact quite an old digital technology, and initially at least worked by pattern matching, one letter at a time, one font at a time. If you&rsquo;ve taken (or will take) my <a href="http://craftingdigitalhistory.ca">Crafting Digital History course</a> you&rsquo;ll learn <a href="https://workbook.craftingdigitalhistory.ca/module-2/Exercises/#exercise-6-using-tesseract-to-turn-an-image-into-text">one way of doing OCR using the Tesseract</a> engine. It works reasonably well on <em>typewritten</em> materials, and this is no accident. A lot of the early business cases for OCR came out of eg legal firms that needed to make a lot of cleanly-written text available electronically. (Incidentally, this also accounts for why digital newspaper searches are rather dodgy, see <a href="http://activehistory.ca/2012/03/illusionary-order/">Milligan 2012 Illusionary Order: Cautionary Notes for Online Newspapers</a>).</p>
-
 <p>But what about handwriting? Handwriting is enormously personal, and as you&rsquo;ve seen in class, my own chicken-scratches are nigh-on impossible to read. Even I have trouble reading my own notes. How can we possibly get a machine to do it? The answer is&hellip;. neural networks. The <a href="https://transkribus.eu/Transkribus/">Transkribus project</a> has produced a platform that allows you to import handwritten documents and carefully mark up the lines of text with your own expert transcription so that the computer learns to &lsquo;read&rsquo; the material! As more people use the system, the system learns more handwriting variants from across the ages - medieval Latin, Arabic; other kinds of writing systems, other eras. It&rsquo;s a very cool project, and I believe Professor Saurette is using it in his medieval history class. And in the end, you also get a degree of confidence in the transcription (those &lsquo;guesses&rsquo; I mentioned above).</p>
-
 <p>But for us, there are some problems. Transkribus depends on having an awful lot of carefully, expertly, transcribed data before it can be trained. We don&rsquo;t have that much time.</p>
-
 <h2 id="a-shortcut">A shortcut</h2>
-
 <p>You could load some of your museum materials into Transkribus and see what happens; it might be that some of its existing models of handwriting work for us already (this might be true of cursive handwriting). Another option is to use a pretrained model and someone else&rsquo;s computing power to recognize and extract the handwritten text in our documents. In this case, we can take an image, feed it into the Microsoft Azure platform, and get the result back virtually instantaneously.</p>
-
-<aside aria-label="warning" class="note warning">
-  <div>
-    <svg class="sign" aria-hidden="true" viewBox="0 0 48.430474 41.646302" focusable="false">
-      <use xlink:href="#warning"></use>
-    </svg>
-    <p>I do not know on what data Microsoft trained its model. Nor do I know whether or not Azure uses user submitted data (images for processing) in its own training iterations. This is something we need to explore and understand.</p>
-
-  </div>
-</aside>
-
-
+<!-- raw HTML omitted -->
+<p>I do not know on what data Microsoft trained its model. Nor do I know whether or not Azure uses user submitted data (images for processing) in its own training iterations. This is something we need to explore and understand.</p>
+<!-- raw HTML omitted -->
 <h3 id="part-one-getting-signed-up-with-azure">Part one: Getting Signed up with Azure.</h3>
-
 <ol>
 <li>Sign up for Microsoft <a href="https://azure.microsoft.com/en-ca/free/">Azure</a>. The link goes to the &lsquo;free&rsquo; usage tier. <strong>It will require a credit card for verification</strong> but nothing we&rsquo;re doing should incur a cost.</li>
 <li>Once you&rsquo;ve jumped through all of those hoops <strong>and you&rsquo;re signed in</strong>, go to <a href="http://portal.azure.com">portal.azure.com</a>. It will look like this: 
@@ -612,17 +580,11 @@
 </figure>
 </li>
 </ol>
-
 <h3 id="part-two-writing-a-command-to-extract-handwriting">Part Two: Writing a Command to Extract Handwriting</h3>
-
 <p>The next part takes place in a virtual computer made available to us via Google. Go to <a href="https://colab.research.google.com/drive/1GnlIYzQp5IaCIfKaIFPfoY5G9btlX-Ht">this code notebook</a> and read through it carefully, following all instructions.</p>
-
 <p><strong>You don&rsquo;t have to do this</strong> but, you <em>can</em> run this from your own computer too if you wanted; easiest way to do that would be to <a href="https://www.anaconda.com/">install anaconda</a>, start up a notebook environment, download my notebook, and run it on your machine.</p>
-
 <p>My notebook contains all of the python code to load an image up, send it to the Azure service you&rsquo;ve created, and retrieve the text that it &lsquo;sees&rsquo;. Good luck!</p>
-
 <h2 id="other-useful-links">Other useful links</h2>
-
 <p><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text">Limitations and formats for the Azure api</a></p>
 
   </main>
@@ -639,7 +601,7 @@
     </label>
   </div>
   
-    <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'>Creative Commons Attribution-NonCommercial 4.0 International License</a>. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <Br><img src="https://bonetrade.github.io/carleton-logo.png" alt="" />.
+    <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->This work is licensed under a <!-- raw HTML omitted -->Creative Commons Attribution-NonCommercial 4.0 International License<!-- raw HTML omitted -->. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <!-- raw HTML omitted --><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
   
 </footer>
 

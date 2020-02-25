@@ -1,15 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project on HIST4806A Museums &#43; Digital History</title>
+    <title>project on HIST4806A Museums &#43; Digital History</title>
     <link>https://shawngraham.github.io/dhmuse/tags/project/</link>
-    <description>Recent content in Project on HIST4806A Museums &#43; Digital History</description>
+    <description>Recent content in project on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publishing Data to the Web with Heroku and Datasette</title>
+      <link>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+Prerequisites You need to have the following installed on your machine:
+ Python. I recommend using Anaconda to manage all of your python related work. Get Anaconda here and get the 3.</description>
+    </item>
     
     <item>
       <title>Making an API with Datasette and Glitch</title>
@@ -18,7 +29,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
+Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
     </item>
     
     <item>
@@ -28,7 +39,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/detecting-handwriting/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
+Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
 Computer Vision In recent years, computer vision technologies have been improving in leaps and bounds.</description>
     </item>
     
@@ -38,8 +49,8 @@ Computer Vision In recent years, computer vision technologies have been improvin
       <pubDate>Thu, 23 Jan 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/museum-groups/</guid>
-      <description>    Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Group assignments Canadian Museum of History, Fort Frontenac excavation records  Maggie Micah Marvin  Museum of Nature, archaeofaunal records  Chloe Malinda Aaliyah Arianna Alina  Canadian Science and Technology Museum, surveying markers collection  Jess Elise Riley Emilee  </description>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+Group assignments Canadian Museum of History, Fort Frontenac excavation records  Maggie Micah Marvin  Museum of Nature, archaeofaunal records  Chloe Malinda Aaliyah Arianna Alina  Canadian Science and Technology Museum, surveying markers collection  Jess Elise Riley Emilee  </description>
     </item>
     
   </channel>

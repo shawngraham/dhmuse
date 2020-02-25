@@ -1,6 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/collections/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/datasette/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/heroku/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/informatics/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/project/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
+    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
+    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/collaborative/</loc>
+    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/collaborative-coding/</loc>
+    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/csv/</loc>
+    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
+  </url>
   
   <url>
     <loc>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</loc>
@@ -8,8 +68,43 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tables/</loc>
+    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/azure/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/detecting-handwriting/</loc>
     <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/ocr/</loc>
+    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/devlogs/</loc>
+    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/reflections/</loc>
+    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/writing/</loc>
+    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
   </url>
   
   <url>
@@ -28,6 +123,11 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/field-trip/</loc>
+    <lastmod>2020-01-22T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/customizing-your-site/</loc>
     <lastmod>2020-01-13T00:36:15-06:00</lastmod>
   </url>
@@ -38,8 +138,58 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/github/</loc>
+    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/metadata/</loc>
+    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/netlify/</loc>
+    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tropy/</loc>
+    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tutorial/</loc>
+    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/clarification/</loc>
+    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/classroom/</loc>
+    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/policies/</loc>
+    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/student-hours/</loc>
     <lastmod>2020-01-08T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/exercise/</loc>
+    <lastmod>2020-01-02T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/objects/</loc>
+    <lastmod>2020-01-02T00:36:15-06:00</lastmod>
   </url>
   
   <url>
@@ -55,6 +205,16 @@
   <url>
     <loc>https://shawngraham.github.io/dhmuse/building-your-online-presence/</loc>
     <lastmod>2019-12-18T00:36:09-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/heritagejam/</loc>
+    <lastmod>2019-12-10T00:36:09-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/notes/</loc>
+    <lastmod>2019-12-10T00:36:09-06:00</lastmod>
   </url>
   
   <url>
@@ -88,6 +248,16 @@
   </url>
   
   <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/hugo/</loc>
+    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/markdown/</loc>
+    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shawngraham.github.io/dhmuse/markdown/</loc>
     <lastmod>2019-02-14T15:36:09-06:00</lastmod>
   </url>
@@ -98,199 +268,13 @@
   </url>
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/</loc>
-    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/azure/</loc>
-    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/clarification/</loc>
-    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/classroom/</loc>
-    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/collaborative/</loc>
-    <lastmod>2020-01-02T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/collaborative-coding/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/collections/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/csv/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/devlogs/</loc>
-    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/exercise/</loc>
-    <lastmod>2020-01-02T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/field-trip/</loc>
-    <lastmod>2020-01-22T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/github/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/handwriting-recognition/</loc>
-    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/heritagejam/</loc>
-    <lastmod>2019-12-10T00:36:09-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/hugo/</loc>
-    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/informatics/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/markdown/</loc>
-    <lastmod>2019-02-14T15:36:09-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/metadata/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/netlify/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/notes/</loc>
-    <lastmod>2019-12-10T00:36:09-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/objects/</loc>
-    <lastmod>2020-01-02T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/ocr/</loc>
-    <lastmod>2020-01-28T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/policies/</loc>
-    <lastmod>2020-01-08T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/project/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/reflections/</loc>
-    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/shortcodes/</loc>
     <lastmod>2019-02-12T23:39:06-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/tables/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/tropy/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/tutorial/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/writing/</loc>
-    <lastmod>2020-01-26T00:36:15-06:00</lastmod>
-    <priority>0</priority>
+    <loc>https://shawngraham.github.io/dhmuse/</loc>
+    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
   </url>
   
 </urlset>

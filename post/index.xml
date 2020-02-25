@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on HIST4806A Museums &#43; Digital History</title>
@@ -6,10 +6,21 @@
     <description>Recent content in Blog on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publishing Data to the Web with Heroku and Datasette</title>
+      <link>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</link>
+      <pubDate>Mon, 24 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+Prerequisites You need to have the following installed on your machine:
+ Python. I recommend using Anaconda to manage all of your python related work. Get Anaconda here and get the 3.</description>
+    </item>
     
     <item>
       <title>Making an API with Datasette and Glitch</title>
@@ -18,7 +29,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
+Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
     </item>
     
     <item>
@@ -28,7 +39,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/detecting-handwriting/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
+Acknowledgement All of this was taught to me by my MA student, Jeff Blackadar.
 Computer Vision In recent years, computer vision technologies have been improving in leaps and bounds.</description>
     </item>
     
@@ -38,7 +49,8 @@ Computer Vision In recent years, computer vision technologies have been improvin
       <pubDate>Sun, 26 Jan 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/your-devlogs/</guid>
-      <description>The point of keeping a running diary-journal-devlog is to have a single point where you can see your evolution over this course. It&amp;rsquo;s a place to tie your readings to the discussions to the hands-on nuts-and-bolts of doing informatics work. It&amp;rsquo;s a place to leave notes to &amp;lsquo;future you&amp;rsquo; so that when you walk away from the machine, you can pick up where you were again.</description>
+      <description>The point of keeping a running diary-journal-devlog is to have a single point where you can see your evolution over this course. It&amp;rsquo;s a place to tie your readings to the discussions to the hands-on nuts-and-bolts of doing informatics work. It&amp;rsquo;s a place to leave notes to &amp;lsquo;future you&amp;rsquo; so that when you walk away from the machine, you can pick up where you were again.
+It&amp;rsquo;s also a place for you to see what your peers are up to, their successes, and their roadblocks.</description>
     </item>
     
     <item>
@@ -47,8 +59,8 @@ Computer Vision In recent years, computer vision technologies have been improvin
       <pubDate>Thu, 23 Jan 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/museum-groups/</guid>
-      <description>    Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-  Group assignments Canadian Museum of History, Fort Frontenac excavation records  Maggie Micah Marvin  Museum of Nature, archaeofaunal records  Chloe Malinda Aaliyah Arianna Alina  Canadian Science and Technology Museum, surveying markers collection  Jess Elise Riley Emilee  </description>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+Group assignments Canadian Museum of History, Fort Frontenac excavation records  Maggie Micah Marvin  Museum of Nature, archaeofaunal records  Chloe Malinda Aaliyah Arianna Alina  Canadian Science and Technology Museum, surveying markers collection  Jess Elise Riley Emilee  </description>
     </item>
     
     <item>
@@ -58,7 +70,7 @@ Computer Vision In recent years, computer vision technologies have been improvin
       
       <guid>https://shawngraham.github.io/dhmuse/cmh-visit/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If anything below requires clarification or sparks a thought, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  January 20th, Visit to the Candian Museum of History If you missed our trip on the 20th, you missed a real treat.</description>
+January 20th, Visit to the Candian Museum of History If you missed our trip on the 20th, you missed a real treat.</description>
     </item>
     
     <item>
@@ -68,7 +80,7 @@ Computer Vision In recent years, computer vision technologies have been improvin
       
       <guid>https://shawngraham.github.io/dhmuse/customizing-your-site/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  Let&amp;rsquo;s get rid of what we don&amp;rsquo;t need As you look at your site, you&amp;rsquo;ll notice that there are a lot of things on there that you don&amp;rsquo;t really need at the moment.</description>
+Let&amp;rsquo;s get rid of what we don&amp;rsquo;t need As you look at your site, you&amp;rsquo;ll notice that there are a lot of things on there that you don&amp;rsquo;t really need at the moment.</description>
     </item>
     
     <item>
@@ -88,7 +100,7 @@ On the other hand, this means that I sometimes don&amp;rsquo;t spell out all of 
       
       <guid>https://shawngraham.github.io/dhmuse/student-hours/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If there&amp;rsquo;s anything below that prompts some reflection, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  What are student hours for? You will be familiar with the idea of &amp;lsquo;office hours&amp;rsquo;, those magical moments where a prof deigns to make themself available by sitting in their cell up along the quiet corridors of the 4th floor of Paterson.</description>
+What are student hours for? You will be familiar with the idea of &amp;lsquo;office hours&amp;rsquo;, those magical moments where a prof deigns to make themself available by sitting in their cell up along the quiet corridors of the 4th floor of Paterson.</description>
     </item>
     
     <item>
@@ -98,7 +110,8 @@ On the other hand, this means that I sometimes don&amp;rsquo;t spell out all of 
       
       <guid>https://shawngraham.github.io/dhmuse/what-is-this-thing/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  for the January 6th meeting</description>
+for the January 6th meeting
+exercise  What is this thing?</description>
     </item>
     
     <item>
@@ -108,7 +121,8 @@ On the other hand, this means that I sometimes don&amp;rsquo;t spell out all of 
       
       <guid>https://shawngraham.github.io/dhmuse/updating-your-devlogs/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  for the January 13th meeting</description>
+for the January 13th meeting
+Why? Keeping track of what you&amp;rsquo;re working on, the code you&amp;rsquo;re trying, the task you&amp;rsquo;re facing, the things you read to help you (like tutorials), the videos you might watch&amp;hellip; This is all part of the process.</description>
     </item>
     
     <item>
@@ -118,7 +132,8 @@ On the other hand, this means that I sometimes don&amp;rsquo;t spell out all of 
       
       <guid>https://shawngraham.github.io/dhmuse/building-your-online-presence/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our class Hypothesis group. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.
-  for the January 6th meeting</description>
+for the January 6th meeting
+Why? You are doing real-world work that helps move our partner Museums forward.</description>
     </item>
     
     <item>
@@ -137,7 +152,7 @@ On December 17 he published an article, &amp;ldquo;Tips for a Good Hackathon&amp
       <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/markdown/</guid>
-      <description>Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6  Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_  This text will be italic
+      <description>Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_ This text will be italic
 This will also be italic
 This text will be bold</description>
     </item>
@@ -148,7 +163,7 @@ This text will be bold</description>
       <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/cupper-shortcodes/</guid>
-      <description>blockquote {{% blockquote author=&amp;quot;Carl Jung&amp;quot; %}} Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity. {{% /blockquote %}}   Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness.</description>
+      <description>blockquote {{% blockquote author=&amp;quot;Carl Jung&amp;quot; %}} Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity. {{% /blockquote %}}  &amp;lt;br&amp;gt; &amp;lt;span class=&amp;quot;author&amp;quot;&amp;gt;&amp;amp;mdash; Carl Jung&amp;lt;/span&amp;gt;  note {{% note %}} This is a note! It&#39;s something the reader may like to know about but is supplementary to the main content.</description>
     </item>
     
   </channel>
