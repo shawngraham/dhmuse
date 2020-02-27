@@ -6,10 +6,19 @@
     <description>Recent content in api on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So what can you do with an API anyway?</title>
+      <link>https://shawngraham.github.io/dhmuse/api-exploration/</link>
+      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/api-exploration/</guid>
+      <description>At this point in the class, you&amp;rsquo;ve started wrestling and wrangling the physical records describing some of the materials in our three partner museums. You&amp;rsquo;re thinking through how to digitize this material - or you should be, make sure to read the relevant how-tos! - and how to organize it into a flat table. You have guidance on how to publish this data online. But&amp;hellip; you might be quietly worried about what one does with such data, once it&amp;rsquo;s online.</description>
+    </item>
     
     <item>
       <title>Making an API with Datasette and Glitch</title>
@@ -18,7 +27,7 @@
       
       <guid>https://shawngraham.github.io/dhmuse/datasette-with-glitch/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
+  Our end goal - or one of our end goals - is to get the material out of the museum, out of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&amp;rsquo;t thought of yet.</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GLAMWorkbench on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/glamworkbench/</link>
+    <description>Recent content in GLAMWorkbench on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Feb 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/glamworkbench/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>So what can you do with an API anyway?</title>
+      <link>https://shawngraham.github.io/dhmuse/api-exploration/</link>
+      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/api-exploration/</guid>
+      <description>At this point in the class, you&amp;rsquo;ve started wrestling and wrangling the physical records describing some of the materials in our three partner museums. You&amp;rsquo;re thinking through how to digitize this material - or you should be, make sure to read the relevant how-tos! - and how to organize it into a flat table. You have guidance on how to publish this data online. But&amp;hellip; you might be quietly worried about what one does with such data, once it&amp;rsquo;s online.</description>
+    </item>
+    
+  </channel>
+</rss>

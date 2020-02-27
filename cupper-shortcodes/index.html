@@ -137,7 +137,7 @@
       </a>
       <p class="library-desc">
         
-          HIST4806A<!-- raw HTML omitted --> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
+          HIST4806A<br> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
         
       </p>
     </div>
@@ -451,25 +451,38 @@
 <pre><code>{{% blockquote author=&quot;Carl Jung&quot; %}}
 Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 {{% /blockquote %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><blockquote class="blockquote">
+  <p>
+    Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 <pre><code>  &lt;br&gt;
   &lt;span class=&quot;author&quot;&gt;&amp;mdash; Carl Jung&lt;/span&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+  </p>
+</blockquote>
 <h2 id="note">note</h2>
 <pre><code>{{% note %}}
 This is a note! It's something the reader may like to know about but is supplementary to the main content. Use notes when something may be interesting but not critical.
 {{% /note %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
 <p>This is a note! It&rsquo;s something the reader may like to know about but is supplementary to the main content. Use notes when something may be interesting but not critical.</p>
-<!-- raw HTML omitted -->
+  </div>
+</aside>
 <h2 id="warning-note">warning note</h2>
 <pre><code>{{% warning %}}
 This is a warning! It's about something the reader should be careful to do or to avoid doing. Use warnings when something could go wrong.
 {{% /warning %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><aside aria-label="warning" class="note warning">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 48.430474 41.646302" focusable="false">
+      <use xlink:href="#warning"></use>
+    </svg>
 <p>This is a warning! It&rsquo;s about something the reader should be careful to do or to avoid doing. Use warnings when something could go wrong.</p>
-<!-- raw HTML omitted -->
+  </div>
+</aside>
 <h2 id="cmd">cmd</h2>
 <pre><code>{{&lt; cmd &gt;}}
 hugo server --gc
@@ -531,10 +544,11 @@ hugo server --gc
 &lt;/<span style="color:#f92672">div</span>&gt;
 </code></pre></div><h2 id="codepen">codePen</h2>
 <pre><code>{{% codePen VpVNKW %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre>  <p class="site-error"><strong>Site error:</strong> The <code>codePenUser</code> param has not been set in <code>config.toml</code></p>
 <h2 id="colors">colors</h2>
 <pre><code>{{% colors &quot;#111111, #cccccc, #ffffff&quot; %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><div class="colors-container">
+  <ul class="colors">
 <pre><code>  &lt;li style=&quot;background-color: #111111;&quot;&gt;
     &lt;span&gt;#111111&lt;/span&gt;
   &lt;/li&gt;
@@ -547,12 +561,13 @@ hugo server --gc
     &lt;span&gt;#FFFFFF&lt;/span&gt;
   &lt;/li&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+  </ul>
+</div>
 <h2 id="expandable">expandable</h2>
 <pre><code>{{% expandable label=&quot;A section of dummy text&quot; level=&quot;2&quot; %}}
 Here is some markdown including [a link](https://twitter.com/heydonworks). Donec erat est, feugiat a est sed, aliquet pharetra ipsum. Vivamus in arcu leo. Praesent feugiat, purus a molestie ultrices, libero massa iaculis ante, sit amet accumsan leo eros vel ligula.
 {{% /expandable %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><div class="expandable-section">
 <pre><code>&lt;h2&gt;
 
 &lt;button aria-expanded=&quot;false&quot; data-expands=&quot;js-expandable-96787626368eb25280dc28455fe4c57f&quot;&gt;
@@ -567,9 +582,10 @@ Here is some markdown including [a link](https://twitter.com/heydonworks). Donec
 
 &lt;/h2&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+  <div id="js-expandable-96787626368eb25280dc28455fe4c57f" hidden>
 <p>Here is some markdown including <a href="https://twitter.com/heydonworks">a link</a>. Donec erat est, feugiat a est sed, aliquet pharetra ipsum. Vivamus in arcu leo. Praesent feugiat, purus a molestie ultrices, libero massa iaculis ante, sit amet accumsan leo eros vel ligula.</p>
-<!-- raw HTML omitted -->
+  </div>
+</div>
 <h2 id="filetree">fileTree</h2>
 <pre><code>{{% fileTree %}}
 * Level 1 folder
@@ -589,7 +605,7 @@ Here is some markdown including [a link](https://twitter.com/heydonworks). Donec
     * Level 2 file
 * Level 1 file
 {{% /fileTree %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><div class="file-tree">
 <ul>
 <li>Level 1 folder
 <ul>
@@ -623,20 +639,20 @@ Here is some markdown including [a link](https://twitter.com/heydonworks). Donec
 </li>
 <li>Level 1 file</li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
 <h2 id="ticks">ticks</h2>
 <pre><code>{{% ticks %}}
 * Selling point one
 * Selling point two
 * Selling point three
 {{% /ticks %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><div class="ticks">
 <ul>
 <li>Selling point one</li>
 <li>Selling point two</li>
 <li>Selling point three</li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
 <h2 id="figure">figure</h2>
 <pre><code>{{&lt; figure
 img=&quot;sun.jpg&quot; 
@@ -667,7 +683,7 @@ options=&quot;700x&quot; &gt;}}
 <h2 id="principles">principles</h2>
 <p>See the <a href="https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/data/principles.json">full principles list</a>.</p>
 <pre><code>{{% principles include=&quot;Add value, Be consistent&quot; descriptions=&quot;true&quot; %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><ul class="principles with-desc">
 <pre><code>  &lt;li&gt;
     &lt;strong&gt;
       &lt;a href=&quot;https://inclusivedesignprinciples.org#be-consistent&quot;&gt;
@@ -706,11 +722,11 @@ options=&quot;700x&quot; &gt;}}
     
   &lt;/li&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</ul>
 <h2 id="wcag">wcag</h2>
 <p>See the <a href="https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/data/wcag.json">full wcag list</a>.</p>
 <pre><code>{{% wcag include=&quot;1.2.1, 1.3.1, 4.1.2&quot; %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><ul class="wcag ">
 <pre><code>  &lt;li&gt;
     &lt;strong&gt;&lt;a href=&quot;https://www.w3.org/TR/WCAG20/&quot;&gt;
       &lt;svg class=&quot;wcag-icon&quot; viewBox=&quot;0 0 127.09899 67.763&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
@@ -859,11 +875,18 @@ options=&quot;700x&quot; &gt;}}
     
   &lt;/li&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</ul>
 <h2 id="tested">tested</h2>
 <p>See the <a href="https://github.com/zwbetz-gh/cupper-hugo-theme/tree/master/static/images">full browser list</a>.</p>
 <pre><code>{{% tested using=&quot;Firefox + JAWS, Chrome, Safari iOS + Voiceover, Edge&quot; %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><table class="tested">
+  <tr>
+    <th scope="row">
+      <svg viewBox="0 0 177.16535 177.16535" focusable="false" aria-hidden="true">
+        <use xlink:href="#tick"></use>
+      </svg>
+      Tested using
+    </th>
 <pre><code>  &lt;td&gt;
     
     
@@ -912,7 +935,8 @@ options=&quot;700x&quot; &gt;}}
     
   &lt;/td&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+  </tr>
+</table>
 
   </main>
   <div id="disqus-container">
@@ -928,7 +952,7 @@ options=&quot;700x&quot; &gt;}}
     </label>
   </div>
   
-    <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->This work is licensed under a <!-- raw HTML omitted -->Creative Commons Attribution-NonCommercial 4.0 International License<!-- raw HTML omitted -->. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <!-- raw HTML omitted --><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
+    <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'>Creative Commons Attribution-NonCommercial 4.0 International License</a>. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <Br><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
   
 </footer>
 

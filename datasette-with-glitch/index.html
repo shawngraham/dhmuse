@@ -137,7 +137,7 @@
       </a>
       <p class="library-desc">
         
-          HIST4806A<!-- raw HTML omitted --> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
+          HIST4806A<br> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
         
       </p>
     </div>
@@ -367,9 +367,14 @@
 
 
     
-    <!-- raw HTML omitted -->
+    <aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
 <p>Please note that this course website is equipped with the <a href="http://hypothes.is">Hypothes.is</a> annotation layer. If a step is not clear, or there is missing information, or you get stuck, please highlight the relevant text and leave an annotation in our <a href="https://hypothes.is/groups/AQerk76W/4806a-museums-dh">class Hypothesis group</a> to alert me.</p>
-<!-- raw HTML omitted -->
+  </div>
+</aside>
 <p>Our end goal - or one of our end goals - is to get the material <em>out</em> of the museum, <em>out</em> of the printed page, and online where someone can query it, filter it, extract items of interest, mash it together with other data, or something else entirely that we haven&rsquo;t thought of yet. That means, we need to build an API. If you go to the Canada Science and Technology Museum open data portal, you&rsquo;ll see that they&rsquo;ve made data available, but it&rsquo;s one big dump of data. We can download it, but then it&rsquo;s on our own machines and it is difficult to work with. If they update the data, we&rsquo;ll have to re-download it, and re-do all of our cleaning or filtering. If there was an API, and we were working with data from the API, we&rsquo;d get the changes in data as soon as they updated.</p>
 <p>So let&rsquo;s build our own API.</p>
 <h2 id="grab-some-data">Grab some data</h2>
@@ -385,19 +390,34 @@
 </ol>
 <p>Why did we do this? By importing and then saving the data, we transformed the data slightly. The act of &lsquo;saving as&rsquo; wrapped quotation marks around all of the text in each field in the data - otherwise, a comma in a written description, or a semi-colon, or another punctuation mark might be read as a field marker and so break our data. Importing and saving as also transformed all of the pipes into commas so that the <strong>only</strong> commas in the data now are column (field) delimiters.</p>
 <h2 id="datasette">Datasette</h2>
-<!-- raw HTML omitted -->
+<blockquote class="blockquote">
+  <p>
+    <p>A tool for exploring and publishing data</p>
+<p>Datasette is a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.</p>
+<p>Datasette is aimed at data journalists, museum curators, archivists, local governments and anyone else who has data that they wish to share with the world. It is part of a wider ecosystem of tools and plugins dedicated to making working with structured data as productive as possible.</p>
 <pre><code>  &lt;br&gt;
   &lt;span class=&quot;author&quot;&gt;&amp;mdash; Datasette&lt;/span&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+  </p>
+</blockquote>
 <p>Publishing and exploring data: check! That&rsquo;s <em>exactly</em> what we want.</p>
-<!-- raw HTML omitted -->
+<aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
 <p>Here is a <a href="https://static.simonwillison.net/static/2018/pybay-datasette/">video and slides about datasette</a> and <a href="https://datasette.readthedocs.io/en/stable/">here is the full documentation</a>.</p>
-<!-- raw HTML omitted -->
+  </div>
+</aside>
 <p>Now, <a href="https://datasette.readthedocs.io/">Datasette</a> can be installed on your own machine, which can be fiddly and requires a fair degree of fluency with working at the command prompt or in the terminal. (If you did install it locally, you can also do a lot of customization, but that&rsquo;s a task for some other day). We&rsquo;re not going to do that today, because a kind soul, Simon Willison, made a template for us to use on the collaborative live-coding website <a href="http://glitch.com">Glitch</a>. This template contains everything within it that we need to get a table of data online via an API and website where we can also manually query it.</p>
-<!-- raw HTML omitted -->
+<aside aria-label="warning" class="note warning">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 48.430474 41.646302" focusable="false">
+      <use xlink:href="#warning"></use>
+    </svg>
 <p>There is a trade-off in using this template - &lsquo;projects are limited to 4,000 requests an hour—and there’s currently no way to increase that limit. They also limit projects to 200MB of disk space&rsquo;. But I don&rsquo;t think we&rsquo;ll hit either of those barriers. If we do, we&rsquo;ll come up with some other solution.</p>
-<!-- raw HTML omitted -->
+  </div>
+</aside>
 <ol>
 <li>Make sure you&rsquo;re logged into Github; this is not strictly speaking necessary, but it will make finding your work again later much easier.</li>
 <li>Click on this <a href="https://glitch.com/edit/#!/remix/datasette-csvs">remix link</a></li>
@@ -540,7 +560,7 @@
     </label>
   </div>
   
-    <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->This work is licensed under a <!-- raw HTML omitted -->Creative Commons Attribution-NonCommercial 4.0 International License<!-- raw HTML omitted -->. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <!-- raw HTML omitted --><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
+    <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'>Creative Commons Attribution-NonCommercial 4.0 International License</a>. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <Br><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
   
 </footer>
 

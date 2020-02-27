@@ -6,10 +6,19 @@
     <description>Recent content in datasette on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/datasette/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So what can you do with an API anyway?</title>
+      <link>https://shawngraham.github.io/dhmuse/api-exploration/</link>
+      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/api-exploration/</guid>
+      <description>At this point in the class, you&amp;rsquo;ve started wrestling and wrangling the physical records describing some of the materials in our three partner museums. You&amp;rsquo;re thinking through how to digitize this material - or you should be, make sure to read the relevant how-tos! - and how to organize it into a flat table. You have guidance on how to publish this data online. But&amp;hellip; you might be quietly worried about what one does with such data, once it&amp;rsquo;s online.</description>
+    </item>
     
     <item>
       <title>Publishing Data to the Web with Heroku and Datasette</title>
@@ -18,8 +27,8 @@
       
       <guid>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If these instructions are unclear, or I&amp;rsquo;ve forgotten something crucial, let me know: please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
-Prerequisites You need to have the following installed on your machine:
- Python. I recommend using Anaconda to manage all of your python related work. Get Anaconda here and get the 3.</description>
+  Prerequisites You need to have the following installed on your machine:
+ Python. I recommend using Anaconda to manage all of your python related work.</description>
     </item>
     
   </channel>

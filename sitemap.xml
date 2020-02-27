@@ -3,17 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
-    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/collections/</loc>
-    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
+    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/datasette/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/glamworkbench/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/metadata/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/raw/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/api-exploration/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/tutorial/</loc>
+    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/collections/</loc>
     <lastmod>2020-02-24T00:36:15-06:00</lastmod>
   </url>
   
@@ -35,16 +70,6 @@
   <url>
     <loc>https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/</loc>
     <lastmod>2020-02-24T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
-    <lastmod>2020-02-24T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
-    <lastmod>2020-02-05T00:36:15-06:00</lastmod>
   </url>
   
   <url>
@@ -143,22 +168,12 @@
   </url>
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/metadata/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/netlify/</loc>
     <lastmod>2020-01-13T00:36:15-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://shawngraham.github.io/dhmuse/tags/tropy/</loc>
-    <lastmod>2020-01-13T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/tutorial/</loc>
     <lastmod>2020-01-13T00:36:15-06:00</lastmod>
   </url>
   

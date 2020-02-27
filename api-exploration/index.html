@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.65.3" />
+  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/api-exploration/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://shawngraham.github.io/dhmuse/css/prism.css" media="none" onload="this.media='all';">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://shawngraham.github.io/dhmuse/css/styles.css">
+
+  <script src="https://hypothes.is/embed.js" async></script>
+
+  <style id="inverter" media="none">
+    html { filter: invert(100%) }
+    * { background-color: inherit }
+    img:not([src*=".svg"]), .colors, iframe, .demo-container { filter: invert(100%) }
+  </style>
+
+  
+  
+  <title>So what can you do with an API anyway? | HIST4806A Museums &#43; Digital History</title>
+</head>
+
+  <body>
+    <a href="#main">skip to content</a>
+    <svg style="display: none">
+  <symbol id="bookmark" viewBox="0 0 40 50">
+   <g transform="translate(2266 3206.2)">
+    <path style="stroke:currentColor;stroke-width:3.2637;fill:none" d="m-2262.2-3203.4-.2331 42.195 16.319-16.318 16.318 16.318.2331-42.428z"/>
+   </g>
+  </symbol>
+
+  <symbol id="w3c" viewBox="0 0 127.09899 67.763">
+   <text font-size="83" style="font-size:83px;font-family:Trebuchet;letter-spacing:-12;fill-opacity:0" letter-spacing="-12" y="67.609352" x="-26.782778">W3C</text>
+   <text font-size="83" style="font-size:83px;font-weight:bold;font-family:Trebuchet;fill-opacity:0" y="67.609352" x="153.21722" font-weight="bold">SVG</text>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m33.695.377 12.062 41.016 12.067-41.016h8.731l-19.968 67.386h-.831l-12.48-41.759-12.479 41.759h-.832l-19.965-67.386h8.736l12.061 41.016 8.154-27.618-3.993-13.397h8.737z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m91.355 46.132c0 6.104-1.624 11.234-4.862 15.394-3.248 4.158-7.45 6.237-12.607 6.237-3.882 0-7.263-1.238-10.148-3.702-2.885-2.47-5.02-5.812-6.406-10.022l6.82-2.829c1.001 2.552 2.317 4.562 3.953 6.028 1.636 1.469 3.56 2.207 5.781 2.207 2.329 0 4.3-1.306 5.909-3.911 1.609-2.606 2.411-5.738 2.411-9.401 0-4.049-.861-7.179-2.582-9.399-1.995-2.604-5.129-3.912-9.397-3.912h-3.327v-3.991l11.646-20.133h-14.062l-3.911 6.655h-2.493v-14.976h32.441v4.075l-12.31 21.217c4.324 1.385 7.596 3.911 9.815 7.571 2.22 3.659 3.329 7.953 3.329 12.892z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.21 0 1.414 8.6-5.008 9.583s-1.924-4.064-5.117-6.314c-2.693-1.899-4.447-2.309-7.186-1.746-3.527.73-7.516 4.938-9.258 10.13-2.084 6.21-2.104 9.218-2.178 11.978-.115 4.428.58 7.043.58 7.043s-3.04-5.626-3.011-13.866c.018-5.882.947-11.218 3.666-16.479 2.404-4.627 5.954-7.404 9.114-7.728 3.264-.343 5.848 1.229 7.841 2.938 2.089 1.788 4.213 5.698 4.213 5.698l4.94-9.837z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.82 48.674s-2.208 3.957-3.589 5.48c-1.379 1.524-3.849 4.209-6.896 5.555-3.049 1.343-4.646 1.598-7.661 1.306-3.01-.29-5.807-2.032-6.786-2.764-.979-.722-3.486-2.864-4.897-4.854-1.42-2-3.634-5.995-3.634-5.995s1.233 4.001 2.007 5.699c.442.977 1.81 3.965 3.749 6.572 1.805 2.425 5.315 6.604 10.652 7.545 5.336.945 9.002-1.449 9.907-2.031.907-.578 2.819-2.178 4.032-3.475 1.264-1.351 2.459-3.079 3.116-4.108.487-.758 1.276-2.286 1.276-2.286l-1.276-6.644z"/>
+  </symbol>
+
+  <symbol id="tag" viewBox="0 0 177.16535 177.16535">
+    <g transform="translate(0 -875.2)">
+     <path style="fill-rule:evenodd;stroke-width:0;fill:currentColor" d="m159.9 894.3-68.79 8.5872-75.42 77.336 61.931 60.397 75.429-76.565 6.8495-69.755zm-31.412 31.835a10.813 10.813 0 0 1 1.8443 2.247 10.813 10.813 0 0 1 -3.5174 14.872l-.0445.0275a10.813 10.813 0 0 1 -14.86 -3.5714 10.813 10.813 0 0 1 3.5563 -14.863 10.813 10.813 0 0 1 13.022 1.2884z"/>
+    </g>
+  </symbol>
+
+  <symbol id="balloon" viewBox="0 0 141.73228 177.16535">
+   <g transform="translate(0 -875.2)">
+    <g>
+     <path style="fill:currentColor" d="m68.156 882.83-.88753 1.4269c-4.9564 7.9666-6.3764 17.321-5.6731 37.378.36584 10.437 1.1246 23.51 1.6874 29.062.38895 3.8372 3.8278 32.454 4.6105 38.459 4.6694-.24176 9.2946.2879 14.377 1.481 1.2359-3.2937 5.2496-13.088 8.886-21.623 6.249-14.668 8.4128-21.264 10.253-31.252 1.2464-6.7626 1.6341-12.156 1.4204-19.764-.36325-12.93-2.1234-19.487-6.9377-25.843-2.0833-2.7507-6.9865-7.6112-7.9127-7.8436-.79716-.20019-6.6946-1.0922-6.7755-1.0248-.02213.0182-5.0006-.41858-7.5248-.22808l-2.149-.22808h-3.3738z"/>
+     <path style="fill:currentColor" d="m61.915 883.28-3.2484.4497c-1.7863.24724-3.5182.53481-3.8494.63994-2.4751.33811-4.7267.86957-6.7777 1.5696-.28598 0-1.0254.20146-2.3695.58589-5.0418 1.4418-6.6374 2.2604-8.2567 4.2364-6.281 7.6657-11.457 18.43-12.932 26.891-1.4667 8.4111.71353 22.583 5.0764 32.996 3.8064 9.0852 13.569 25.149 22.801 37.517 1.3741 1.841 2.1708 2.9286 2.4712 3.5792 3.5437-1.1699 6.8496-1.9336 10.082-2.3263-1.3569-5.7831-4.6968-21.86-6.8361-33.002-.92884-4.8368-2.4692-14.322-3.2452-19.991-.68557-5.0083-.77707-6.9534-.74159-15.791.04316-10.803.41822-16.162 1.5026-21.503 1.4593-5.9026 3.3494-11.077 6.3247-15.852z"/>
+     <path style="fill:currentColor" d="m94.499 885.78c-.10214-.0109-.13691 0-.0907.0409.16033.13489 1.329 1.0675 2.5976 2.0723 6.7003 5.307 11.273 14.568 12.658 25.638.52519 4.1949.24765 14.361-.5059 18.523-2.4775 13.684-9.7807 32.345-20.944 53.519l-3.0559 5.7971c2.8082.76579 5.7915 1.727 8.9926 2.8441 11.562-11.691 18.349-19.678 24.129-28.394 7.8992-11.913 11.132-20.234 12.24-31.518.98442-10.02-1.5579-20.876-6.7799-28.959-.2758-.4269-.57803-.86856-.89617-1.3166-3.247-6.13-9.752-12.053-21.264-16.131-2.3687-.86369-6.3657-2.0433-7.0802-2.1166z"/>
+     <path style="fill:currentColor" d="m32.52 892.22c-.20090-.13016-1.4606.81389-3.9132 2.7457-11.486 9.0476-17.632 24.186-16.078 39.61.79699 7.9138 2.4066 13.505 5.9184 20.562 5.8577 11.77 14.749 23.219 30.087 38.74.05838.059.12188.1244.18052.1838 1.3166-.5556 2.5965-1.0618 3.8429-1.5199-.66408-.32448-1.4608-1.3297-3.8116-4.4602-5.0951-6.785-8.7512-11.962-13.051-18.486-5.1379-7.7948-5.0097-7.5894-8.0586-13.054-6.2097-11.13-8.2674-17.725-8.6014-27.563-.21552-6.3494.13041-9.2733 1.775-14.987 2.1832-7.5849 3.9273-10.986 9.2693-18.07 1.7839-2.3656 2.6418-3.57 2.4409-3.7003z"/>
+     <path style="fill:currentColor" d="m69.133 992.37c-6.2405.0309-12.635.76718-19.554 2.5706 4.6956 4.7759 9.935 10.258 12.05 12.625l4.1272 4.6202h11.493l3.964-4.4516c2.0962-2.3541 7.4804-7.9845 12.201-12.768-8.378-1.4975-16.207-2.6353-24.281-2.5955z"/>
+     <rect style="stroke-width:0;fill:currentColor" ry="2.0328" height="27.746" width="22.766" y="1017.7" x="60.201"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="info" viewBox="0 0 41.667 41.667">
+   <g transform="translate(-37.035 -1004.6)">
+    <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m76.25 1030.2a18.968 18.968 0 0 1 -23.037 13.709 18.968 18.968 0 0 1 -13.738 -23.019 18.968 18.968 0 0 1 23.001 -13.768 18.968 18.968 0 0 1 13.798 22.984"/>
+    <g transform="matrix(1.1146 0 0 1.1146 -26.276 -124.92)">
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m75.491 1039.5v-8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" transform="scale(-1)" d="m-73.193-1024.5a2.3719 2.3719 0 0 1 -2.8807 1.7142 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="warning" viewBox="0 0 48.430474 41.646302">
+    <g transform="translate(-1.1273 -1010.2)">
+     <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:4.151;fill:none" d="m25.343 1012.3-22.14 37.496h44.28z"/>
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:4.1512;fill:none" d="m25.54 1027.7v8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" d="m27.839 1042.8a2.3719 2.3719 0 0 1 -2.8807 1.7143 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+  </symbol>
+
+  <symbol id="menu" viewBox="0 0 50 50">
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="0" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="20" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="40" x="0"/>
+   </symbol>
+
+   <symbol id="link" viewBox="0 0 50 50">
+    <g transform="translate(0 -1002.4)">
+     <g transform="matrix(.095670 0 0 .095670 2.3233 1004.9)">
+      <g>
+       <path style="stroke-width:0;fill:currentColor" d="m452.84 192.9-128.65 128.65c-35.535 35.54-93.108 35.54-128.65 0l-42.881-42.886 42.881-42.876 42.884 42.876c11.845 11.822 31.064 11.846 42.886 0l128.64-128.64c11.816-11.831 11.816-31.066 0-42.9l-42.881-42.881c-11.822-11.814-31.064-11.814-42.887 0l-45.928 45.936c-21.292-12.531-45.491-17.905-69.449-16.291l72.501-72.526c35.535-35.521 93.136-35.521 128.64 0l42.886 42.881c35.535 35.523 35.535 93.141-.001 128.66zm-254.28 168.51-45.903 45.9c-11.845 11.846-31.064 11.817-42.881 0l-42.884-42.881c-11.845-11.821-11.845-31.041 0-42.886l128.65-128.65c11.819-11.814 31.069-11.814 42.884 0l42.886 42.886 42.876-42.886-42.876-42.881c-35.54-35.521-93.113-35.521-128.65 0l-128.65 128.64c-35.538 35.545-35.538 93.146 0 128.65l42.883 42.882c35.51 35.54 93.11 35.54 128.65 0l72.496-72.499c-23.956 1.597-48.092-3.784-69.474-16.283z"/>
+      </g>
+     </g>
+    </g>
+  </symbol>
+
+  <symbol id="doc" viewBox="0 0 35 45">
+   <g transform="translate(-147.53 -539.83)">
+    <path style="stroke:currentColor;stroke-width:2.4501;fill:none" d="m149.38 542.67v39.194h31.354v-39.194z"/>
+    <g style="stroke-width:25" transform="matrix(.098003 0 0 .098003 133.69 525.96)">
+     <path d="m220 252.36h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path style="stroke:currentColor;stroke-width:25;fill:none" d="m220 409.95h200"/>
+     <path d="m220 488.74h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path d="m220 331.15h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+    </g>
+   </g>
+ </symbol>
+
+ <symbol id="tick" viewBox="0 0 177.16535 177.16535">
+  <g transform="translate(0 -875.2)">
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="155" width="40" y="702.99" x="556.82"/>
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="40" width="90.404" y="817.99" x="506.42"/>
+  </g>
+ </symbol>
+</svg>
+
+    <div class="wrapper">
+      <header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a class="logo" href="/" aria-label="HIST4806A Museums &#43; Digital History home page">
+        <img src="https://shawngraham.github.io/dhmuse/images/logo.svg" alt="">
+      </a>
+      <p class="library-desc">
+        
+          HIST4806A<br> Museums + Digital History @<a href="http://carleton.ca/history">Carleton University, Dept of History</a> Winter 2020 with <a href="http://electricarchaeology.ca">Shawn Graham</a>.
+        
+      </p>
+    </div>
+    <nav id="patterns-nav" class="patterns" role="navigation">
+  <h2 class="vh">Main navigation</h2>
+  <button id="menu-button" aria-expanded="false">
+    <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+      <use xlink:href="#menu"></use>
+    </svg>
+    Menu
+  </button>
+  
+  <ul id="patterns-list">
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">The Big Idea</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/coursework/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Course Work</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/schedule/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Schedule</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/readings/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Readings</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/post/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Updates</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/heritagejam/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">HeritageJam</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/dhmuse/index.xml" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">RSS</span>
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+  </div>
+</header>
+      <div class="main-and-footer">
+        <div>
+          
+  <main id="main">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      So what can you do with an API anyway?
+    </h1>
+    <div class="date">
+      
+      <strong aria-hidden="true">Publish date: </strong>Feb 26, 2020
+    </div>
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/tutorial/">tutorial</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/api/">api</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/metadata/">metadata</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/datasette/">datasette</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/raw/">RAW</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/glamworkbench/">GLAMWorkbench</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#apis-are-about-communication">
+            APIs are about communication
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#a-quick-search-using-our-api">
+            A Quick Search Using our API
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#so-whats-the-big-deal-comparing-an-api-to-a-scrape">
+            So what’s the big deal? Comparing an API to a Scrape
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#from-api-to-somewhere-else">
+            From API to somewhere else
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#glamworkbench">
+            GLAMWorkbench
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#building-a-website-populated-with-data-from-an-api">
+            Building a website populated with data from an API
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#conclusion">
+            Conclusion
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+    <p>At this point in the class, you&rsquo;ve started wrestling and wrangling the physical records describing some of the materials in our three partner museums. You&rsquo;re thinking through how to digitize this material - or you should be, make sure to read the relevant how-tos! -  and how to organize it into a flat table. You have guidance on how to publish this data online. But&hellip; you might be quietly worried about what one <em>does</em> with such data, once it&rsquo;s online. What&rsquo;s the <em>point</em> of this, your inner voice says quietly to you at the end of a long day&hellip;</p>
+<aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
+<p>Please note that this course website is equipped with the <a href="http://hypothes.is">Hypothes.is</a> annotation layer. If you get stumped by any of the steps below, or would like some clarification, please highlight the relevant text and leave an annotation in our <a href="https://hypothes.is/groups/AQerk76W/4806a-museums-dh">class Hypothesis group</a>. Please also, if you spot someone has left an annotation, read their annotation and respond appropriately and helpfully if you can.</p>
+  </div>
+</aside>
+<p>&hellip;it is <strong>totally ok</strong> to feel like that, to hear that inner voice and agree with it. In this walkthrough, I want to gesture towards some of the things that one can do once data escapes online via an API.</p>
+<h2 id="apis-are-about-communication">APIs are about communication</h2>
+<p>An API - an application programming interface - you&rsquo;ll recall is just a way of opening up a programme so that another programme can interact with it. That is, instead of an interface meant for a human to interact with the machine, there&rsquo;s an API to allow <em>some other machine</em> to interact with this one. If you&rsquo;ve ever downloaded an app on your phone that allowed you to interact with Instagram (but wasn&rsquo;t Instagram itself), that interaction was through Instagram&rsquo;s API, for instance.</p>
+<p>A good API will also have documentation explaining what or how to make calls to it to get the information you want. My demo API with the Science and Technology Museum is not yet documented. But we can deduce a few things by interacting with its webpage.</p>
+<p>Go to <a href="https://cstm-demo.herokuapp.com/cstm/">https://cstm-demo.herokuapp.com/cstm/</a>.</p>
+<h2 id="a-quick-search-using-our-api">A Quick Search Using our API</h2>
+<p>The mining industry - and indeed, many industries - would not be possible without the humble pump. Imagine you were researching the evolution of pump design and the history of the technology. Our API might be really useful for you. How many pumps does the museum have? Where are they from, and when? Are there meaningful differences between American and Canadian designs?</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-88a6c67251284c63b030630c2d0e00dc">
+  <a href="https://shawngraham.github.io/dhmuse/api-exploration/fig1.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/api-exploration/fig1_hu39cb03a9d0b3b7da8707de71bedc4917_121241_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-88a6c67251284c63b030630c2d0e00dc">
+    Datasette provides you with a nice web interface for setting up filters or writing sql queries. Notice what happens to the URL after you apply a filter or query.
+  </figcaption>
+</figure>
+
+<p>Build a filter to retrieve all the data on pumps. Which columns do you filter on? Take a look at the url once you&rsquo;ve hit &lsquo;apply&rsquo;. Mine looks like this:</p>
+<p><code>https://cstm-demo.herokuapp.com/cstm/fulldata?ObjectName__contains=pump</code></p>
+<p>and it retrieves 173 rows of data.</p>
+<p>What happens if you filter on two columns? How does the URL change? Everything after the <code>?</code> is how we programmatically get data out of our API. We might write a program that downloads all the pump records, and checks every so often to see if new material is out there. Or maybe it grabs that data, and uses what it finds to search a <em>different</em> API for say images, then mashes the two together to create a new webpage.</p>
+<p><strong>going a bit further</strong> If you have two filters applied, the <code>&amp;</code> in the URL functions as an &lsquo;and&rsquo; statement: only rows that satisfy both conditions will be returned. What if you wanted an <code>or</code>? In datasette, you need to do that as an sql query, so click on the &lsquo;View and edit SQL&rsquo; link and see if you can work out where to switch &lsquo;and&rsquo; for &lsquo;or&rsquo;.</p>
+<h2 id="so-whats-the-big-deal-comparing-an-api-to-a-scrape">So what&rsquo;s the big deal? Comparing an API to a Scrape</h2>
+<p>Fair question. Compare that with trying to get anything out of <a href="http://www.bac-lac.gc.ca/eng/discover/immigration/citizenship-naturalization-records/naturalized-records-1915-1951/Pages/search-naturalization-1915-1939.aspx">Library and Archives Canada database of Naturalization Records</a>. Look at that url: <code>http://www.bac-lac.gc.ca/eng/discover/immigration/citizenship-naturalization-records/naturalized-records-1915-1951/Pages/search-naturalization-1915-1939.aspx</code> See the .aspx? That&rsquo;s telling us that LAC is using the Microsoft product ASP.Net to generate its website from its database. It&rsquo;s also indicating to us that there is no API. In <a href="https://glam-workbench.github.io/lac/">this notebook</a> Tim Sherratt walks us through screen-scraping the results of searches in LAC to create a dataset, and the fudges and kludges he has to build to put together a dataset.</p>
+<p>In fact, let&rsquo;s take a moment and consider scraping. Let&rsquo;s say you wanted to create a little app to compare photos of Roman pottery with a database of Roman pottery types. You need some image data. Potsherd.net has a lot of data; you can explore it at <a href="http://potsherd.net/atlas/potsherd">http://potsherd.net/atlas/potsherd</a>. But&hellip; they don&rsquo;t have an API, so we&rsquo;ll have to scrape it (which also brings up interesting copyright issues). If only they had an API with a license so we could easily and correctly grab the information we need!</p>
+<p>There are Google chrome plugins that will scrape pages for you&hellip; but you really don&rsquo;t know what they&rsquo;re doing under the hood. So here&rsquo;s a little programme that does the trick, written in Python (which you have to have installed on your machine to make it work; you can get it <a href="https://www.anaconda.com/distribution/">here</a>).</p>
+<p>My little program uses some Python building blocks or &lsquo;packages&rsquo;. It uses a package called &lsquo;requests&rsquo; to handle loading up a webpage, a package called &lsquo;csv&rsquo; so that we can write our results to a file, and a package called &lsquo;Beautiful Soup&rsquo; to read and understand the html so we can just grab the information we want from within the relevant html tags (eg, data in a table will be wrapped within <code>&lt;tr&gt;&lt;/tr&gt;</code> html tags).</p>
+<p>Follow along, or give it a shot - open a text editor and start a new file. First thing we’ll do is import some modules that make life easier:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+<span style="color:#f92672">import</span> csv
+<span style="color:#f92672">import</span> requests
+
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;http://potsherd.net/atlas/Ware/&#39;</span>)
+soup <span style="color:#f92672">=</span> BeautifulSoup(r<span style="color:#f92672">.</span>content, <span style="color:#e6db74">&#34;html.parser&#34;</span>)
+</code></pre></div><p>We create a variable r that tells python we want it to go out onto the web and retrieve the html at that location; we then tell python to pass the html to BeautifulSoup for processing. Next, we tell the program to create a new csv file for us to use as our output container:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>writer(open(<span style="color:#e6db74">&#34;output.csv&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>))
+f<span style="color:#f92672">.</span>writerow([<span style="color:#e6db74">&#34;Domain&#34;</span>, <span style="color:#e6db74">&#34;Path&#34;</span>])    <span style="color:#75715e"># Write column headers as the first line</span>
+</code></pre></div><p>Then comes the magic. We tell python, via BeautifulSoup, to look in the html for a table (having studied the html of our target site, we know that the links to the individual ware pages are organized using html table tags) and then grab the information contained in the a tags:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">trs <span style="color:#f92672">=</span> soup<span style="color:#f92672">.</span>find_all(<span style="color:#e6db74">&#39;tr&#39;</span>)
+
+<span style="color:#66d9ef">for</span> tr <span style="color:#f92672">in</span> trs:
+    <span style="color:#66d9ef">for</span> link <span style="color:#f92672">in</span> tr<span style="color:#f92672">.</span>find_all(<span style="color:#e6db74">&#39;a&#39;</span>):
+        fulllink <span style="color:#f92672">=</span> link<span style="color:#f92672">.</span>get (<span style="color:#e6db74">&#39;href&#39;</span>)
+        <span style="color:#66d9ef">print</span> (fulllink) <span style="color:#75715e">#print in terminal to verify results</span>
+        f<span style="color:#f92672">.</span>writerow([<span style="color:#e6db74">&#34;http://potsherd.net/atlas/&#34;</span>, fulllink])    <span style="color:#75715e"># Write column headers as the first line</span>
+</code></pre></div><p>et voila. Save all that as <code>potbot.py</code>, and from the terminal, run it:</p>
+<p><code>$ python potbot.py</code></p>
+<p>A new file ‘output.csv’ is created with two columns. The first column contains <a href="http://potsherd.net/atlas/">http://potsherd.net/atlas/</a> and the second column contains the rest of the paths we want. Delete all the commas and delete the header row; save as <code>urls.txt</code> and we can then use wget (assuming you&rsquo;ve got it installed on your machine) like so:</p>
+<pre><code>wget -r -w 2 --limit-rate=20k -A jpeg,jpg,bmp,gif,png -i urls.txt
+</code></pre><p>This command tells wget to follow the paths in the input file urls.txt, to wait a moment between requests, to limit the amount asked for each time, and to only keep images. Go get a coffee, come back later, and you’ll have a lovely directory of data.</p>
+<h2 id="from-api-to-somewhere-else">From API to somewhere else</h2>
+<p>Phew. Let&rsquo;s not scrape for museum data. But note that many museums do not have APIs; they might have a collection you can search, but you&rsquo;ll have to build some sort of scraper to get the data. Returning to <em>our</em> API and the result of our search:</p>
+<p><code>https://cstm-demo.herokuapp.com/cstm/fulldata?ObjectName__contains=pump</code></p>
+<p>In what follows, I&rsquo;m not going to ask you to do any programming. Instead, we&rsquo;re going to get our API to expose the results of our search as a csv file, which we&rsquo;ll then feed into a different website.</p>
+<p>See the &lsquo;csv&rsquo; link on the page? Click that. Your page reloads with pure csv, <a href="https://cstm-demo.herokuapp.com/cstm/fulldata.csv?ObjectName__contains=pump&amp;_size=max">like this</a>. Notice how the URL has changed - there&rsquo;s now a .csv right there after &lsquo;fulldata&rsquo; and before the &lsquo;?'. If you deleted the csv in the url and replaced it with json, you get the same data again in json format.</p>
+<p>Copy the URL for the CSV representation of your search results. Open a new browser window at <a href="https://app.rawgraphs.io/">https://app.rawgraphs.io/</a>. RAWGraphs is an open source tool for making a number of different kinds of visualizations. See the &lsquo;load your data&hellip;. from url&rsquo; button on the left? Click that, and then put the URL to your csv data in the box and hit enter. It will load up and display the data in the box, saying that your data has been successfully parsed.</p>
+<p><img src="data-in.png" alt="fig2"></p>
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-30e08cc7a4a7c16cc6a9e495e8b685e8">
+  <a href="https://shawngraham.github.io/dhmuse/api-exploration/data-in.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/api-exploration/data-in_hu45ffce36f7db99dcbcfac855fcd08c5a_207322_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-30e08cc7a4a7c16cc6a9e495e8b685e8">
+    The RAW app reaches out to your API and retrieves the data. Here, I&rsquo;ve searched the object description for pump, rather than the object name. What does that suggest?
+  </figcaption>
+</figure>
+
+<p>Scroll down though to where it says &lsquo;Map your dimensions&rsquo;. Each of these blocks represents a different facet of your data; it also tells you what <em>kind</em> of data you&rsquo;re dealing with. For instance, for &lsquo;ManuCountry&rsquo; it says &lsquo;string&rsquo;, and for &lsquo;BeginDate&rsquo; it says &lsquo;number&rsquo;. But if you go down to where it says &lsquo;Length&rsquo; and &lsquo;Width&rsquo; and &lsquo;Height&rsquo;, these are also strings! What gives? Well, the original data had &lsquo;cm&rsquo; beside it, and so RAW knows that mixed letters and numbers are strings. Thus you wouldn&rsquo;t be able to graph those dimensions. The solution is to go back up to your data in RAW, copy it all, paste it into a text editor like Atom or Sublime, search for &lsquo;cm&rsquo; and replace it with nothing. Then copy the data in your editor and paste it back into RAW.</p>
+<p><strong>No matter how much data cleaning you do, there will always be more</strong></p>
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-38734bda80bf770d5a908aef2cf8181c">
+  <a href="https://shawngraham.github.io/dhmuse/api-exploration/strings.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/api-exploration/strings_hu1ca9e5a71ee22be7d7b916770cbd9660_22768_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-38734bda80bf770d5a908aef2cf8181c">
+    RAW shows you the various dimensions to your data, and the kind of data inhabiting them.
+  </figcaption>
+</figure>
+
+<p>Now that that problem is fixed, scroll down to the kinds of visualizations on tap, and select one. I tried the &lsquo;alluvial&rsquo; diagram, to see how different categories of my data interrelate. After selecting &lsquo;type&rsquo;, you scroll back to &lsquo;map your dimensions&rsquo; and drag and drop as appropriate.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-b18751ad63ea3bdd16185599fec976f8">
+  <a href="https://shawngraham.github.io/dhmuse/api-exploration/mapping.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/api-exploration/mapping_hu1ff70dc37305ec980d1bae72c935e7ff_60333_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-b18751ad63ea3bdd16185599fec976f8">
+    You drag and drop the different dimensions as appropriate for the various visualizations.
+  </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure role="group" aria-describedby="caption-76b43a08adfe1dc258441f55412981c3">
+  <a href="https://shawngraham.github.io/dhmuse/api-exploration/result.png" class="img-link">
+    <img src="https://shawngraham.github.io/dhmuse/api-exploration/result_hu5f35757812b0e1aba52b2184e9864f2d_511740_700x0_resize_box_2.png">
+  </a>
+  <figcaption id="caption-76b43a08adfe1dc258441f55412981c3">
+    With the alluvial diagram, we can see how different dimensions interrelate. Try other visuals; which ones might help you better answer the questions we opened with? Also, you can export your visualization as a png file or svg; an svg is a text description of the geometry of your visualization, suitable for putting into devlogs or other webpages.
+  </figcaption>
+</figure>
+
+<p>Explore our CSTM data using RAWGraphs. Imagine the kinds of questions you could now ask and answer. In fact, go back up to our opening questions: can you answer them?</p>
+<h2 id="glamworkbench">GLAMWorkbench</h2>
+<p>Now we&rsquo;re going to head over to Tim Sherratt&rsquo;s <a href="https://glam-workbench.github.io/nma/">GLAMWorkbench</a> to explore the National Museum of Australia API. Tim uses computational notebooks to do this and to walk us through the process. These notebooks are like annotated computer programs, so we can run each piece of the program one step at a time to understand how the code works and what we are doing. Tim&rsquo;s notebook shows us how to explore objects over time and over space in that collection. (And you&rsquo;ll recall that I&rsquo;ve got a simple notebook showing how to just download stuff from our Datasette API as part of a program <a href="https://shawngraham.github.io/dhmuse/datasette-with-glitch/#going-further-writing-some-code-to-interact-with-our-api">here</a>.)</p>
+<h2 id="building-a-website-populated-with-data-from-an-api">Building a website populated with data from an API</h2>
+<p>The <a href="https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data">Programming Historian has a tutorial</a> that will walk you through how to build a website whose content is pulled from the <a href="https://www.europeana.eu/portal/en">Europeana API</a>, one of the most comprehensive collections of cultural heritage materials:</p>
+<blockquote class="blockquote">
+  <p>
+    <p>Europeana Collections provides access to over 50 million digitised items – books, music, artworks and more – with sophisticated search and filter tools to help you find what you’re looking for.</p>
+<p>Our dedicated thematic collections on <a href="http://art.europeana.eu/">art</a>, <a href="http://fashion.europeana.eu/">fashion</a>, <a href="http://music.europeana.eu/">music</a>, <a href="http://photography.europeana.eu/">photography</a> and <a href="http://world-war-i.europeana.eu/">World War I</a> contain <a href="http://www.europeana.eu/portal/explore/galleries">galleries</a>, <a href="http://blog.europeana.eu/">blogs</a> and <a href="http://www.europeana.eu/portal/exhibitions/foyer">exhibitions</a> to inform and inspire.</p>
+  </p>
+</blockquote>
+<p>So why don&rsquo;t you give that tutorial a whirl, using the <a href="https://cstm-demo.herokuapp.com/">API I put up for the Science and Technology</a> Museum? Maybe something that incorporates all of those images it has.</p>
+<p>If you do follow that tutorial, note that it uses PHP as the language to generate the dynamic webpage you are coding. You&rsquo;ll have to have hosting somewhere if you want to put it online. I can help you with that.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This discussion is meant to give you an idea of the kinds of things that could be done once we get data online and exposed to the rest of the internet through an API. A well-formed API makes publishing your data easier, makes your data more useful, and allows you to exercise some control over how your data gets out in the world. Nobody wants to build scrapers.</p>
+
+  </main>
+  <div id="disqus-container">
+  
+</div>
+
+
+          <footer role="contentinfo">
+  <div>
+    <label for="themer">
+      dark theme: <input type="checkbox" id="themer" class="vh">
+      <span aria-hidden="true"></span>
+    </label>
+  </div>
+  
+    <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'>Creative Commons Attribution-NonCommercial 4.0 International License</a>. Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. <Br><img src="https://bonetrade.github.io/carleton-logo.png" alt="">.
+  
+</footer>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://shawngraham.github.io/dhmuse/js/prism.js"></script>
+<script src="https://shawngraham.github.io/dhmuse/js/dom-scripts.js"></script>
+
+    
+  
+
+  </body>
+</html>
