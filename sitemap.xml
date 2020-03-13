@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
-    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
+    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shawngraham.github.io/dhmuse/post/</loc>
+    <loc>https://shawngraham.github.io/dhmuse/tags/how-to/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/presentations/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/revealjs/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/making-a-slide-show-in-academic-kickstarter/</loc>
+    <lastmod>2020-03-13T00:36:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shawngraham.github.io/dhmuse/tags/api/</loc>
     <lastmod>2020-02-26T00:36:15-06:00</lastmod>
   </url>
   
@@ -34,11 +59,6 @@
   
   <url>
     <loc>https://shawngraham.github.io/dhmuse/api-exploration/</loc>
-    <lastmod>2020-02-26T00:36:15-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shawngraham.github.io/dhmuse/tags/</loc>
     <lastmod>2020-02-26T00:36:15-06:00</lastmod>
   </url>
   

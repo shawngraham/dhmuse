@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>presentations on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/presentations/</link>
+    <description>Recent content in presentations on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Academic Kickstarter to Deliver a Slide Show</title>
+      <link>https://shawngraham.github.io/dhmuse/making-a-slide-show-in-academic-kickstarter/</link>
+      <pubDate>Fri, 13 Mar 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/making-a-slide-show-in-academic-kickstarter/</guid>
+      <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
+  Online Slidedecks Slidedecks or presentations don&amp;rsquo;t have to be complex. You can make them using nothing but a text file. There are a lot of advantages to doing things this way, but what I really like is that it makes sharing slides super easy - no downloads, no stupid Microsoft Powerpoint faffing around.</description>
+    </item>
+    
+  </channel>
+</rss>
