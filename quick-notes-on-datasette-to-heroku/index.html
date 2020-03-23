@@ -375,7 +375,7 @@
 <p><a href="https://www.heroku.com/">Heroku</a> is a platform for delivering web apps. For our purposes, it&rsquo;s free. The 0.50$ tour -  a simple server just delivers basic static webpages to the web. If you want some kind of interactivity, or you&rsquo;re doing complex database driven queries and functions, you need a server with a lot more power. Heroku does that. In <a href="/datasette-with-glitch/">my guidance on using Datasette with Glitch</a> you learned that Glitch can host very small datasets using Glitch&rsquo;s collaborative coding environment. This is great for when you want to quickly test something out, or share very small data, but it&rsquo;s not a good solution if you want to put larger materials online. We&rsquo;ll use Heroku for that.</p>
 <h2 id="here-we-go">Here we go!</h2>
 <h3 id="1-create-a-python-environment-for-your-work">1. Create a python environment for your work</h3>
-<p>Open a new terminal (Mac) or start up Conda and start a new terminal window (Windows). I make a version of python - an &lsquo;environment&rsquo; - just for working with this course by using the command <code>$ conda create</code>, like so:</p>
+<p>Open a new terminal (Mac) or start up Conda and start a new terminal window (Windows). (Windows users, look for &lsquo;command prompt for powershell anaconda&rsquo; and start that.) I make a version of python - an &lsquo;environment&rsquo; - just for working with this course by using the command <code>$ conda create</code>, like so:</p>
 <p><code>$ conda create --name dhmuse</code></p>
 <p>and pressing <code>y</code> for &lsquo;yes, i do want to create a pythion environment called &lsquo;dhmuse&rsquo;'. There are many different packages or bundles of python-legos out there that can be combined to do lots of different things. You create environments to manage all of these pieces so that you don&rsquo;t create conflicts. I create an environment for analytical work, or for creative work, or for database work, or for a unique project, so that my different pieces of code have <em>just</em> the right pieces they need. Then, I can remind myself what conda environments I have by entering:</p>
 <p><code>$ conda env list</code></p>
@@ -399,8 +399,8 @@
 <h3 id="3-convert-your-table-of-data-to-a-database">3. Convert your table of data to a database</h3>
 <p>Now we convert your csv table of data to a sql database:</p>
 <p><code>$ csvs-to-sqlite your-data-table.csv your-database.db</code></p>
-<p>When it finishes running, check it out via datasette:
-`$ datasette your-datasette.db  ``</p>
+<p>When it finishes running, check it out via datasette:</p>
+<p><code>$ datasette your-datasette.db</code></p>
 <p>Ta da! Your data is running probably at <a href="http://127.0.0.1:8001">http://127.0.0.1:8001</a>. Check it out! Hit ctrl+c in your terminal to stop it.</p>
 <hr>
 <h3 id="4-publish-to-the-web">4. Publish to the web</h3>
