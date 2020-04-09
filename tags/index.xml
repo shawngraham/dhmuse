@@ -6,7 +6,7 @@
     <description>Recent content in Tags on HIST4806A Museums &#43; Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2020 00:36:15 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 00:36:15 -0600</lastBuildDate>
     
 	<atom:link href="https://shawngraham.github.io/dhmuse/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,36 @@
     <item>
       <title>api</title>
       <link>https://shawngraham.github.io/dhmuse/tags/api/</link>
-      <pubDate>Tue, 07 Apr 2020 00:36:15 -0600</pubDate>
+      <pubDate>Thu, 09 Apr 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>apis</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/apis/</link>
-      <pubDate>Tue, 07 Apr 2020 00:36:15 -0600</pubDate>
+      <title>datasette</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/datasette/</link>
+      <pubDate>Thu, 09 Apr 2020 00:36:15 -0600</pubDate>
       
-      <guid>https://shawngraham.github.io/dhmuse/tags/apis/</guid>
+      <guid>https://shawngraham.github.io/dhmuse/tags/datasette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/meta/</link>
+      <pubDate>Thu, 09 Apr 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>https://shawngraham.github.io/dhmuse/tags/metadata/</link>
+      <pubDate>Thu, 09 Apr 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/tags/metadata/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
       <pubDate>Fri, 13 Mar 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/tags/how-to/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meta</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/meta/</link>
-      <pubDate>Fri, 13 Mar 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/meta/</guid>
       <description></description>
     </item>
     
@@ -75,29 +84,11 @@
     </item>
     
     <item>
-      <title>datasette</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/datasette/</link>
-      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/datasette/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GLAMWorkbench</title>
       <link>https://shawngraham.github.io/dhmuse/tags/glamworkbench/</link>
       <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
       
       <guid>https://shawngraham.github.io/dhmuse/tags/glamworkbench/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>metadata</title>
-      <link>https://shawngraham.github.io/dhmuse/tags/metadata/</link>
-      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/tags/metadata/</guid>
       <description></description>
     </item>
     

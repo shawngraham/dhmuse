@@ -259,7 +259,7 @@
     <div class="date">
       
       
-      <strong aria-hidden="true">Publish date: </strong>Feb 26, 2020
+      <strong aria-hidden="true">Publish date: </strong>Apr 9, 2020
       
         
       
@@ -304,7 +304,15 @@
 
     
 
-    <h3 id="ave-atque-vale">Ave atque Vale</h3>
+    <aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
+<p>You did it!.</p>
+  </div>
+</aside>
+<h3 id="ave-atque-vale">Ave atque Vale</h3>
 <p><em>I wrote this out and managed to delete everything I had already written. D&rsquo;oh.This is my second try.</em></p>
 <p>Cast your mind back to our first meeting, in January. That day, I had received some bad news concerning the health of a friend of mine. I was pretty flat, and did a poor job in class. I told you about it, later, and said something like, &lsquo;y&rsquo;know, there&rsquo;s nothing we can&rsquo;t roll with in this course, as long as we&rsquo;re talking&rsquo;.</p>
 <p>And then the world threw a pandemic at us. I mean, what. the. actual. &hellip;.</p>
@@ -320,8 +328,11 @@
 <p>The goal was also to publish paradata websites that would detail the decisions taken at each step of that process which affected the amount and kind of data that we were able to publish. Unfortunately, the world had other plans. Subsequent iterations of this course will continue the work, so stay tuned.</p>
 <h3 id="the-museum-of-nature">The Museum of Nature</h3>
 <p>This API makes available archaeofaunal evidence from Place Royale. There are two tables, with over 100 and 500 rows respectively. <a href="https://place-royale-latrine.herokuapp.com/">https://place-royale-latrine.herokuapp.com/</a></p>
-<h3 id="the-museum-of-history">The Museum of History</h3>
+<p>For reference, this was all pushed online with a few more flags set than were in my original instructions:</p>
+<pre><code>datasette publish heroku --name place-royale-latrine All-Specimens.db Cuts-burns-toothmarks.db --about &quot;By students in HIST4806a Museums and Digital History Carleton University Winter 2020&quot; --source=&quot;Canadian Museum of Nature&quot; --title=&quot;Place Royale Latrine ZIC Project #98&quot;
+</code></pre><h3 id="the-museum-of-history">The Museum of History</h3>
 <p>This API makes available some 400 record cards from the CARF excavations. <a href="http://fort-frontenac-excavation.herokuapp.com/">http://fort-frontenac-excavation.herokuapp.com/</a>.</p>
+<p>Like the Nature gang, this group ran into the same issue with the <code>datasette heroku publish</code> command on Windows machines. Because they both ran into the <em>same</em> error on different machines, but I couldn&rsquo;t reproduce the error on Macs, this leads me to suspect that the issue is in the underlying codebase.</p>
 <h3 id="the-science-and-technology-museum">The Science and Technology Museum</h3>
 <p>This API makes available data concerning 134 markers at the CSTM. <a href="https://cstm-demo2.herokuapp.com/">https://cstm-demo2.herokuapp.com/</a></p>
 <h3 id="open-object-database-from-the-science-and-technology-museum">Open Object Database from the Science and Technology Museum</h3>

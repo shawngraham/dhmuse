@@ -12,15 +12,14 @@
     
     
     <item>
-      <title>APIs Online!</title>
-      <link>https://shawngraham.github.io/dhmuse/apis-online/</link>
-      <pubDate>Tue, 07 Apr 2020 00:36:15 -0600</pubDate>
+      <title>3 Museums, 4 APIs</title>
+      <link>https://shawngraham.github.io/dhmuse/the-end/</link>
+      <pubDate>Thu, 09 Apr 2020 00:36:15 -0600</pubDate>
       
-      <guid>https://shawngraham.github.io/dhmuse/apis-online/</guid>
+      <guid>https://shawngraham.github.io/dhmuse/the-end/</guid>
       <description>You did it!.
-  APIs The folks working with the Museum of Nature eventually focussed on a single site, at Place Royale - see their datasette with the faunal remains here.
-For reference, this was all pushed online with a few more flags set than were in my original instructions:
-datasette publish heroku --name place-royale-latrine All-Specimens.db Cuts-burns-toothmarks.db --about &amp;quot;By students in HIST4806a Museums and Digital History Carleton University Winter 2020&amp;quot; --source=&amp;quot;Canadian Museum of Nature&amp;quot; --title=&amp;quot;Place Royale Latrine ZIC Project #98&amp;quot; The folks working with the Canada History Museum and the materials from Fort Frontenac got their materials online here</description>
+  Ave atque Vale I wrote this out and managed to delete everything I had already written. D&amp;rsquo;oh.This is my second try.
+Cast your mind back to our first meeting, in January. That day, I had received some bad news concerning the health of a friend of mine. I was pretty flat, and did a poor job in class. I told you about it, later, and said something like, &amp;lsquo;y&amp;rsquo;know, there&amp;rsquo;s nothing we can&amp;rsquo;t roll with in this course, as long as we&amp;rsquo;re talking&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -42,16 +41,6 @@ datasette publish heroku --name place-royale-latrine All-Specimens.db Cuts-burns
       <guid>https://shawngraham.github.io/dhmuse/making-a-slide-show-in-academic-kickstarter/</guid>
       <description>Please note that this course website is equipped with the Hypothes.is annotation layer. If you are not on the list or you&amp;rsquo;re listed in the wrong place, please highlight the relevant text and leave an annotation in our class Hypothesis group to alert me.
   Online Slidedecks Slidedecks or presentations don&amp;rsquo;t have to be complex. You can make them using nothing but a text file. There are a lot of advantages to doing things this way, but what I really like is that it makes sharing slides super easy - no downloads, no stupid Microsoft Powerpoint faffing around.</description>
-    </item>
-    
-    <item>
-      <title>3 Museums, 4 APIs</title>
-      <link>https://shawngraham.github.io/dhmuse/the-end/</link>
-      <pubDate>Wed, 26 Feb 2020 00:36:15 -0600</pubDate>
-      
-      <guid>https://shawngraham.github.io/dhmuse/the-end/</guid>
-      <description>Ave atque Vale I wrote this out and managed to delete everything I had already written. D&amp;rsquo;oh.This is my second try.
-Cast your mind back to our first meeting, in January. That day, I had received some bad news concerning the health of a friend of mine. I was pretty flat, and did a poor job in class. I told you about it, later, and said something like, &amp;lsquo;y&amp;rsquo;know, there&amp;rsquo;s nothing we can&amp;rsquo;t roll with in this course, as long as we&amp;rsquo;re talking&amp;rsquo;.</description>
     </item>
     
     <item>
