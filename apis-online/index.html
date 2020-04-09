@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.65.3" />
-  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/tags/datasette/">
+  <link rel="canonical" href="https://shawngraham.github.io/dhmuse/apis-online/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>datasette | HIST4806A Museums &#43; Digital History</title>
+  <title>APIs Online! | HIST4806A Museums &#43; Digital History</title>
 </head>
 
   <body>
@@ -249,44 +249,74 @@
         <div>
           
   <main id="main">
-    <h1>datasette</h1>
-    <ul class="patterns-list">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      APIs Online!
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Apr 7, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/api-exploration/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            So What Can You Do With an API Anyway?
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://shawngraham.github.io/dhmuse/tags/apis/">apis</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/the-end/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            3 Museums, 4 APIs
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://shawngraham.github.io/dhmuse/quick-notes-on-datasette-to-heroku/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Publishing Data to the Web with Heroku and Datasette
-          </a>
-        </h2>
-      </li>        
     
-    </ul>
+      
+
+
+    
+
+    <aside aria-label="note" class="note">
+  <div>
+    <svg class="sign" aria-hidden="true" viewBox="0 0 41.667306 41.66729" focusable="false">
+      <use xlink:href="#info"></use>
+    </svg>
+<p>You did it!.</p>
+  </div>
+</aside>
+<h3 id="apis">APIs</h3>
+<p>The folks working with the Museum of Nature eventually focussed on a single site, at Place Royale - see their <a href="https://place-royale-latrine.herokuapp.com/">datasette with the faunal remains here</a>.</p>
+<p>For reference, this was all pushed online with a few more flags set than were in my original instructions:</p>
+<pre><code>datasette publish heroku --name place-royale-latrine All-Specimens.db Cuts-burns-toothmarks.db --about &quot;By students in HIST4806a Museums and Digital History Carleton University Winter 2020&quot; --source=&quot;Canadian Museum of Nature&quot; --title=&quot;Place Royale Latrine ZIC Project #98&quot;
+</code></pre><p>The folks working with the Canada History Museum and the materials from Fort Frontenac got their materials online <a href="http://fort-frontenac-excavation.herokuapp.com/CARF/CMH">here</a></p>
+<blockquote>
+<p>Like the Nature gang, they ran into the same issue with the <code>datasette heroku publish</code> command on Windows machines. Because they both ran into the <em>same</em> error on different machines, but I couldn&rsquo;t reproduce the error on Macs, this leads me to suspect that the issue is in the underlying codebase.</p>
+</blockquote>
+<p>The folks working on the survey markers from across Canada, from the Canada Science and Technology Museum, have their API online <a href="">here</a>.</p>
+<p>Finally, my demo api that republished the CSTM&rsquo;s open dataset can be explored <a href="https://cstm-demo.herokuapp.com/">here</a>.</p>
+<h3 id="well-done">Well done!</h3>
+<p>That&rsquo;s four quite distinct datasets that you have published. You digitized the original paper documents with your phone cameras, you got a rough-and-ready transcription done via machine learning and old-fashioned elbow grease, you cleaned it all up and arranged it in tables, and you turned it into online databases with human and machine readable facets.</p>
+<p><strong>None of this was easy</strong>.</p>
+<p>But you <em>did</em> it - despite everything that was thrown at us. And I am proud of you!</p>
+<p>I <em>told</em> you there was nothing we couldn&rsquo;t roll with in this course.</p>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

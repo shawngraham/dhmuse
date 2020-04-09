@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apis on HIST4806A Museums &#43; Digital History</title>
+    <link>https://shawngraham.github.io/dhmuse/tags/apis/</link>
+    <description>Recent content in apis on HIST4806A Museums &#43; Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Apr 2020 00:36:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://shawngraham.github.io/dhmuse/tags/apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APIs Online!</title>
+      <link>https://shawngraham.github.io/dhmuse/apis-online/</link>
+      <pubDate>Tue, 07 Apr 2020 00:36:15 -0600</pubDate>
+      
+      <guid>https://shawngraham.github.io/dhmuse/apis-online/</guid>
+      <description>You did it!.
+  APIs The folks working with the Museum of Nature eventually focussed on a single site, at Place Royale - see their datasette with the faunal remains here.
+For reference, this was all pushed online with a few more flags set than were in my original instructions:
+datasette publish heroku --name place-royale-latrine All-Specimens.db Cuts-burns-toothmarks.db --about &amp;quot;By students in HIST4806a Museums and Digital History Carleton University Winter 2020&amp;quot; --source=&amp;quot;Canadian Museum of Nature&amp;quot; --title=&amp;quot;Place Royale Latrine ZIC Project #98&amp;quot; The folks working with the Canada History Museum and the materials from Fort Frontenac got their materials online here</description>
+    </item>
+    
+  </channel>
+</rss>
